@@ -1,0 +1,22 @@
+{
+  "name": "ai-story",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prod": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "google-tts-api": "^2.0.2",
+    "gtts": "^0.2.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.0",
+    "playht": "^0.9.8"
+  }
+}

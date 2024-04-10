@@ -1,12 +1,23 @@
-const pino = require('pino');
+const pino = require('pino')
 
-module.exports = pino(
+const transport = pino.transport(
     {
-        transport: {
-            target: 'pino-pretty',
-            options: {
-                colorize: true
-            }
-        },
+        targets: [
+            {
+                target: 'pino-pretty',
+                options: {
+                    colorize: true
+                }
+            },
+            {
+                level: 'trace',
+                target: 'pino/file',
+                options: {
+                    destination: './logs/main.log',
+                },
+            },
+        ],
     }
 );
+
+module.exports = pino(transport)

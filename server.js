@@ -8,8 +8,11 @@ const googleTTS = require('google-tts-api');
 const axios = require('axios');
 const path = require('path');
 const OpenAI = require("openai");
+var ffmpeg = require('fluent-ffmpeg');
 
 require('dotenv').config();
+
+let compileVisual = ffmpeg();
 
 // Composaables
 const logger = require('./composables/logger');
@@ -26,18 +29,25 @@ PlayHTAPI.init({
   userId: process.env.PLAYHT_USER_ID,
 });
 
-// Server Config
+// Environment Variables
 const app = express();
 const name = process.env.SERVER_NAME;
 const base = process.env.SERVER_BASE;
 const port = process.env.SERVER_PORT;
 const ver = process.env.SERVER_VERS;
 const env = process.env.SERVER_ENVN;
-const audioFilesDir = path.join(__dirname, 'audio_files');
-if (!existsSync(audioFilesDir)) { mkdirSync(audioFilesDir); }
+
+// Server Config
 app.use(cors())
 app.use(express.json());
+
+const audioFilesDir = path.join(__dirname, 'audio_files');
+if (!existsSync(audioFilesDir)) { mkdirSync(audioFilesDir); }
 app.use('/audio', express.static(audioFilesDir));
+
+const storyAssetDir = path.join(__dirname, 'story_archive');
+if (!existsSync(storyAssetDir)) { mkdirSync(storyAssetDir); }
+app.use('/story_archive', express.static(storyAssetDir));
 
 app.get('/', (req, res) => {
     return res.status(200).json(
@@ -186,10 +196,20 @@ app.post('/api/story/chapter/create', async (req, res) => {
     const requestHeaders = req.headers;
     console.log('') || logger.info(`Request from ${userAgent}`);
     try {
-        const { user_authority, story_id, chapter_id, chapter_title, chapter_content, narrate_mode, narrate_lang, scene_mode, scene_model, scene_size } = req.body;
-
+        const { user_authority, story_id, chapter_id, chapter_title, chapter_content, narrate_mode, narrate_lang, scene_mode, scene_model, scene_size, overwrite } = req.body;
+        const isNullOrUndefined = (value) => value === null || value === undefined;
         // Validate Post Body Request
-        if (!user_authority || !story_id || !chapter_id || !chapter_title || !chapter_content || !narrate_mode || !narrate_lang || !scene_mode || !scene_model || !scene_size) {
+        if (isNullOrUndefined(story_id) || 
+        isNullOrUndefined(chapter_id) || 
+        isNullOrUndefined(chapter_title) || 
+        isNullOrUndefined(chapter_content) || 
+        isNullOrUndefined(narrate_mode) || 
+        isNullOrUndefined(narrate_lang) || 
+        isNullOrUndefined(scene_mode) || 
+        isNullOrUndefined(scene_model) || 
+        isNullOrUndefined(scene_size) || 
+        isNullOrUndefined(user_authority) || 
+        isNullOrUndefined(overwrite)) {
             logger.error('Missing required fields in the request body.');
             return res.status(400).json({
                 status: 'error',
@@ -197,6 +217,34 @@ app.post('/api/story/chapter/create', async (req, res) => {
             });
         }
 
+        // Overwrite Function
+        if(!overwrite){
+            logger.warn(`Overwrite option is disabled.`);
+            const storyArchiveDirCheck = path.join(__dirname, 'story_archive');
+            const storyDirCheck = path.join(storyArchiveDirCheck, "Story_" + story_id);
+            const chapterDirCheck = path.join(storyDirCheck, "Chapter_" + chapter_id);
+
+            logger.info(`Check overwrite. Searching Chapter_${chapter_id}`);
+            const chapterExists = fs.existsSync(chapterDirCheck);
+            
+            if(chapterExists){
+                logger.warn(`Unable to overwrite. Found existing chapter.`);
+                const endTime = new Date();
+                const duration = endTime - startTime; 
+                return res.status(200).json({
+                    status: 'success',
+                    chapterExist: chapterExists,
+                    message: 'Unable to overwrite. Found existing chapter.',
+                    requestTime: startTime.toISOString(),
+                    responseSpeed: `${duration} ms`,
+                    userAgent: userAgent, 
+                    requestHeaders: requestHeaders 
+                });
+            }
+        }else{
+            logger.warn(`Overwrite option is enabled.`);
+        }
+        
         // Create if not exist 'story_archive' directory
         const storyArchiveDir = path.join(__dirname, 'story_archive');
         if (!fs.existsSync(storyArchiveDir)) {
@@ -278,7 +326,7 @@ app.post('/api/story/chapter/create', async (req, res) => {
         
                     const imageResponse = await openai.images.generate({
                         model: scene_model,
-                        prompt: "Create an Image Story Scene for this Scenario: " + query,
+                        prompt: "Imagine this is a kid story from a book. Create an Image Story Scene for this Scenario: " + query,
                         n: 1,
                         size: scene_size,
                     });
@@ -396,6 +444,25 @@ app.post('/api/story/chapter/create', async (req, res) => {
             throw 500;
         }
 
+        const filesByExtension = {};
+        try {
+            const files = fs.readdirSync(chapterDir);
+
+            files.forEach((file) => {
+                const ext = path.extname(file);
+
+                if (!filesByExtension[ext]) {
+                    filesByExtension[ext] = [];
+                }
+
+                filesByExtension[ext].push(`${base}:${port}/story_archive/Story_${story_id}/Chapter_${chapter_id}/${file}`);
+            });
+
+        } catch (err) {
+            logger.error(`Error reading files in ${chapterDir}`);
+            throw err;
+        }
+
         // Calculate duration
         const endTime = new Date();
         const duration = endTime - startTime; 
@@ -404,6 +471,7 @@ app.post('/api/story/chapter/create', async (req, res) => {
         logger.info(`Story asset completed.`);
         return res.status(200).json({
             status: 'success',
+            fileGenerated: filesByExtension,
             content: chapter_content,
             requestTime: startTime.toISOString(),
             responseSpeed: `${duration} ms`,
@@ -466,8 +534,8 @@ app.get('/api/story/scenery/ai/create', async (req, res) => {
         }
 
         const image = await openai.images.generate({
-            model: "dall-e-2",
-            prompt: "Create an Image Story Scene for this Scenario: " + query,
+            model: "dall-e-3",
+            prompt: "Imagine this is a kid story from a book. Create an Image Story Scene for this Scenario: " + query,
             n: 1,
             size: "1024x1024",
         });

@@ -2,7 +2,6 @@ node_modules/
 jspm_packages/
 audio_files/*.mp3
 story_archive/*
-logs/*
 .npm
 .eslintcache
 .stylelintcache

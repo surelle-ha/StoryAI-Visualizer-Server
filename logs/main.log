@@ -1,0 +1,468 @@
+{"level":30,"time":1712735942400,"pid":13308,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712735942401,"pid":13308,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712735942401,"pid":13308,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_132"}
+{"level":40,"time":1712735942401,"pid":13308,"hostname":"Surelle","msg":"Unable to overwrite. Found existing chapter."}
+{"level":30,"time":1712736184741,"pid":13308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":50,"time":1712736184741,"pid":13308,"hostname":"Surelle","msg":"Missing required fields in the request body."}
+{"level":30,"time":1712736252508,"pid":13308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":50,"time":1712736252508,"pid":13308,"hostname":"Surelle","msg":"Missing required fields in the request body."}
+{"level":30,"time":1712736407012,"pid":13308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":40,"time":1712736407012,"pid":13308,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712736407013,"pid":13308,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712736407013,"pid":13308,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712736407013,"pid":13308,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712736407014,"pid":13308,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712736407014,"pid":13308,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712736407014,"pid":13308,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712736407014,"pid":13308,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712736407014,"pid":13308,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712736407335,"pid":13308,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712736407892,"pid":13308,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712736408060,"pid":13308,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712736408060,"pid":13308,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712736578356,"pid":13308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":40,"time":1712736578357,"pid":13308,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712736578357,"pid":13308,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712736578358,"pid":13308,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712736578358,"pid":13308,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712736578358,"pid":13308,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712736578359,"pid":13308,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712736578359,"pid":13308,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712736578359,"pid":13308,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712736578359,"pid":13308,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712736578838,"pid":13308,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712736579637,"pid":13308,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712736580152,"pid":13308,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712736580152,"pid":13308,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737303123,"pid":3648,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737303123,"pid":3648,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712737303124,"pid":3648,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_132"}
+{"level":40,"time":1712737303124,"pid":3648,"hostname":"Surelle","msg":"Unable to overwrite. Found existing chapter."}
+{"level":30,"time":1712737310468,"pid":3648,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737310468,"pid":3648,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737310469,"pid":3648,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737310470,"pid":3648,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737310470,"pid":3648,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737310470,"pid":3648,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737310470,"pid":3648,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737310470,"pid":3648,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737310470,"pid":3648,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737310470,"pid":3648,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737310650,"pid":3648,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737310930,"pid":3648,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737311079,"pid":3648,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737311079,"pid":3648,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737334576,"pid":3648,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737334576,"pid":3648,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737334576,"pid":3648,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737334577,"pid":3648,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737334577,"pid":3648,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737334577,"pid":3648,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737334578,"pid":3648,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737334578,"pid":3648,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737334578,"pid":3648,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737334578,"pid":3648,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737334736,"pid":3648,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737335136,"pid":3648,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737335523,"pid":3648,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737335523,"pid":3648,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737452783,"pid":21928,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737452783,"pid":21928,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737452784,"pid":21928,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737452785,"pid":21928,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737452785,"pid":21928,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737452785,"pid":21928,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737452786,"pid":21928,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737452786,"pid":21928,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737452786,"pid":21928,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737452786,"pid":21928,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737452970,"pid":21928,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737453646,"pid":21928,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737454241,"pid":21928,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737454243,"pid":21928,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737579990,"pid":13924,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737579991,"pid":13924,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737579992,"pid":13924,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737579992,"pid":13924,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737579993,"pid":13924,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737579993,"pid":13924,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737579993,"pid":13924,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737579993,"pid":13924,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737579993,"pid":13924,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737579993,"pid":13924,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737580323,"pid":13924,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737580556,"pid":13924,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737580739,"pid":13924,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737580741,"pid":13924,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737606494,"pid":25288,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737606495,"pid":25288,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737606496,"pid":25288,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737606496,"pid":25288,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737606496,"pid":25288,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737606497,"pid":25288,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737606497,"pid":25288,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737606497,"pid":25288,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737606497,"pid":25288,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737606497,"pid":25288,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737606662,"pid":25288,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737606909,"pid":25288,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737607065,"pid":25288,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737607066,"pid":25288,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737630735,"pid":5900,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737630736,"pid":5900,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737630737,"pid":5900,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737630738,"pid":5900,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737630738,"pid":5900,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737630738,"pid":5900,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737630739,"pid":5900,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737630739,"pid":5900,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737630739,"pid":5900,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737630739,"pid":5900,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737630945,"pid":5900,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737631194,"pid":5900,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737631359,"pid":5900,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737631360,"pid":5900,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737638882,"pid":13600,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737638882,"pid":13600,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737638883,"pid":13600,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737638884,"pid":13600,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737638884,"pid":13600,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737638884,"pid":13600,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737638885,"pid":13600,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737638885,"pid":13600,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737638885,"pid":13600,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737638885,"pid":13600,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737639050,"pid":13600,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737639290,"pid":13600,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737639449,"pid":13600,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737639451,"pid":13600,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":50,"time":1712737639451,"pid":13600,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712737645293,"pid":19692,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737645294,"pid":19692,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737645295,"pid":19692,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737645295,"pid":19692,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737645295,"pid":19692,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737645295,"pid":19692,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737645296,"pid":19692,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737645296,"pid":19692,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737645296,"pid":19692,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737645296,"pid":19692,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737645661,"pid":19692,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737646289,"pid":19692,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737646445,"pid":19692,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737646447,"pid":19692,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737823297,"pid":10392,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737823298,"pid":10392,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737823299,"pid":10392,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737823300,"pid":10392,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737823300,"pid":10392,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737823301,"pid":10392,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737823301,"pid":10392,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737823302,"pid":10392,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737823302,"pid":10392,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737823302,"pid":10392,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737823470,"pid":10392,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737823917,"pid":10392,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737824039,"pid":10392,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737824040,"pid":10392,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712737981837,"pid":9276,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712737981837,"pid":9276,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712737981838,"pid":9276,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712737981839,"pid":9276,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712737981839,"pid":9276,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712737981839,"pid":9276,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712737981839,"pid":9276,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712737981840,"pid":9276,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712737981840,"pid":9276,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712737981840,"pid":9276,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712737982538,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712737983271,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712737983474,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712737983476,"pid":9276,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712738189680,"pid":9276,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712738189680,"pid":9276,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712738189681,"pid":9276,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712738189681,"pid":9276,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712738189681,"pid":9276,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712738189682,"pid":9276,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712738189682,"pid":9276,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712738189682,"pid":9276,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":30,"time":1712738189682,"pid":9276,"hostname":"Surelle","msg":"Free Scene Mode is selected."}
+{"level":30,"time":1712738191173,"pid":9276,"hostname":"Surelle","msg":"132_0.png is created."}
+{"level":30,"time":1712738194924,"pid":9276,"hostname":"Surelle","msg":"132_1.png is created."}
+{"level":30,"time":1712738198264,"pid":9276,"hostname":"Surelle","msg":"132_2.png is created."}
+{"level":30,"time":1712738198264,"pid":9276,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712738198417,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712738198685,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712738198845,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712738198847,"pid":9276,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712738356963,"pid":9276,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712738356963,"pid":9276,"hostname":"Surelle","msg":"Searching Story_56"}
+{"level":30,"time":1712738356963,"pid":9276,"hostname":"Surelle","msg":"Search for Story_56 completed. Res: true"}
+{"level":30,"time":1712738356963,"pid":9276,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712738356963,"pid":9276,"hostname":"Surelle","msg":"Search for Story_56 completed. Res: false"}
+{"level":30,"time":1712738356963,"pid":9276,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712738643143,"pid":9276,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":50,"time":1712738643143,"pid":9276,"hostname":"Surelle","msg":"Missing required fields in the request body."}
+{"level":30,"time":1712738799062,"pid":9276,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712738799062,"pid":9276,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712738799062,"pid":9276,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_1"}
+{"level":30,"time":1712738799063,"pid":9276,"hostname":"Surelle","msg":"Directory 'Story_1' created."}
+{"level":30,"time":1712738799063,"pid":9276,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712738799063,"pid":9276,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712738799063,"pid":9276,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712738799064,"pid":9276,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712738799064,"pid":9276,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712738799064,"pid":9276,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712738799065,"pid":9276,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":40,"time":1712738799065,"pid":9276,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712738799065,"pid":9276,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712738799225,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712738799469,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712738799675,"pid":9276,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712738799676,"pid":9276,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712738860730,"pid":9276,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712738860730,"pid":9276,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712738860730,"pid":9276,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712738860730,"pid":9276,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712738860730,"pid":9276,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712738860730,"pid":9276,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712738882357,"pid":9276,"hostname":"Surelle","msg":"Delete request from PostmanRuntime/7.37.3"}
+{"level":50,"time":1712738882358,"pid":9276,"hostname":"Surelle","msg":"Chapter_2 of Story_1 not found"}
+{"level":30,"time":1712738891664,"pid":9276,"hostname":"Surelle","msg":"Delete request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712738891669,"pid":9276,"hostname":"Surelle","msg":"Chapter_1 of Story_1 deleted successfully"}
+{"level":30,"time":1712738891669,"pid":9276,"hostname":"Surelle","msg":"Chapter deletion completed"}
+{"level":30,"time":1712739007303,"pid":6784,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712739007304,"pid":6784,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712739007304,"pid":6784,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_1"}
+{"level":30,"time":1712739007304,"pid":6784,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712739007305,"pid":6784,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712739007306,"pid":6784,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712739007306,"pid":6784,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712739007306,"pid":6784,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712739007307,"pid":6784,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712739007308,"pid":6784,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":40,"time":1712739007308,"pid":6784,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712739007308,"pid":6784,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712739007476,"pid":6784,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712739008168,"pid":6784,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712739008569,"pid":6784,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712739008570,"pid":6784,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712759609219,"pid":17976,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":40,"time":1712759609219,"pid":17976,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712759609220,"pid":17976,"hostname":"Surelle","msg":"132_0.srt file created."}
+{"level":30,"time":1712759609221,"pid":17976,"hostname":"Surelle","msg":"132_0.sub file created."}
+{"level":30,"time":1712759609221,"pid":17976,"hostname":"Surelle","msg":"132_1.srt file created."}
+{"level":30,"time":1712759609222,"pid":17976,"hostname":"Surelle","msg":"132_1.sub file created."}
+{"level":30,"time":1712759609222,"pid":17976,"hostname":"Surelle","msg":"132_2.srt file created."}
+{"level":30,"time":1712759609222,"pid":17976,"hostname":"Surelle","msg":"132_2.sub file created."}
+{"level":40,"time":1712759609222,"pid":17976,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712759609222,"pid":17976,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712759609904,"pid":17976,"hostname":"Surelle","msg":"Narration Generated for 132_0.mp3."}
+{"level":30,"time":1712759610935,"pid":17976,"hostname":"Surelle","msg":"Narration Generated for 132_1.mp3."}
+{"level":30,"time":1712759611474,"pid":17976,"hostname":"Surelle","msg":"Narration Generated for 132_2.mp3."}
+{"level":30,"time":1712759611475,"pid":17976,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712764736379,"pid":17976,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712764736379,"pid":17976,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712764736379,"pid":17976,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712764736379,"pid":17976,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712764736379,"pid":17976,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712764736379,"pid":17976,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712765184627,"pid":15236,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712765184628,"pid":15236,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":50,"time":1712765184628,"pid":15236,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765203493,"pid":15236,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712765203493,"pid":15236,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712765203493,"pid":15236,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":50,"time":1712765203493,"pid":15236,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765229967,"pid":45704,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765229968,"pid":45704,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":50,"time":1712765229968,"pid":45704,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765261853,"pid":45704,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765261853,"pid":45704,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":50,"time":1712765261853,"pid":45704,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765283740,"pid":45704,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765283741,"pid":45704,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":50,"time":1712765283741,"pid":45704,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765358459,"pid":45704,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765358459,"pid":45704,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":50,"time":1712765358460,"pid":45704,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765412928,"pid":24708,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765412929,"pid":24708,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":50,"time":1712765412930,"pid":24708,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765452503,"pid":42768,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765452504,"pid":42768,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712765456665,"pid":42768,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":50,"time":1712765456665,"pid":42768,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765468489,"pid":42768,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":50,"time":1712765468490,"pid":42768,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765473840,"pid":42768,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765473840,"pid":42768,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712765564386,"pid":28896,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765564386,"pid":28896,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765564386,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765564386,"pid":28896,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712765564386,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765564387,"pid":28896,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712765575151,"pid":28896,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765575151,"pid":28896,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765575151,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765575151,"pid":28896,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712765575151,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765575151,"pid":28896,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712765588799,"pid":28896,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765588799,"pid":28896,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765588799,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765588799,"pid":28896,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712765588799,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712765588799,"pid":28896,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765623702,"pid":28896,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765623702,"pid":28896,"hostname":"Surelle","msg":"Searching Story_12"}
+{"level":30,"time":1712765623703,"pid":28896,"hostname":"Surelle","msg":"Search for Story_12 completed. Res: false"}
+{"level":30,"time":1712765623703,"pid":28896,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712765623703,"pid":28896,"hostname":"Surelle","msg":"Search for Story_12 completed. Res: false"}
+{"level":30,"time":1712765623703,"pid":28896,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712765633558,"pid":28896,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765633558,"pid":28896,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765633558,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765633558,"pid":28896,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712765633558,"pid":28896,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765633558,"pid":28896,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712765667830,"pid":4508,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765667831,"pid":4508,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765667831,"pid":4508,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765667831,"pid":4508,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712765667831,"pid":4508,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712765667831,"pid":4508,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765712505,"pid":7396,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765712505,"pid":7396,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765712505,"pid":7396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765712505,"pid":7396,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712765712505,"pid":7396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712765712506,"pid":7396,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765733352,"pid":7396,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765733352,"pid":7396,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765733352,"pid":7396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765733352,"pid":7396,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712765733352,"pid":7396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712765733352,"pid":7396,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765735390,"pid":7012,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765735390,"pid":7012,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765735391,"pid":7012,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765735391,"pid":7012,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712765735391,"pid":7012,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712765735391,"pid":7012,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712765772065,"pid":21236,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712765772065,"pid":21236,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712765772065,"pid":21236,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712765772065,"pid":21236,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712765772065,"pid":21236,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712765772066,"pid":21236,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712766460056,"pid":21236,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766460056,"pid":21236,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766460057,"pid":21236,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766460057,"pid":21236,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712766460057,"pid":21236,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712766460057,"pid":21236,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712766520214,"pid":14176,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766520214,"pid":14176,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766520214,"pid":14176,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766520214,"pid":14176,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712766520214,"pid":14176,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":50,"time":1712766520214,"pid":14176,"hostname":"Surelle","msg":"Error reading files in C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer\\story_archive\\Story_1\\Chapter_12"}
+{"level":50,"time":1712766520214,"pid":14176,"hostname":"Surelle","msg":"An error occurred while fetching chapter assets:"}
+{"level":30,"time":1712766549817,"pid":20172,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766549818,"pid":20172,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766549818,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766549818,"pid":20172,"hostname":"Surelle","msg":"Searching Chapter_12"}
+{"level":30,"time":1712766549818,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":30,"time":1712766549818,"pid":20172,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712766583100,"pid":20172,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766583100,"pid":20172,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766583100,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766583100,"pid":20172,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712766583100,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766583101,"pid":20172,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712766882531,"pid":20172,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766882532,"pid":20172,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766882532,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766882532,"pid":20172,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712766882532,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766882532,"pid":20172,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712766889987,"pid":20172,"hostname":"Surelle","msg":"Delete request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766889992,"pid":20172,"hostname":"Surelle","msg":"Chapter_1 of Story_1 deleted successfully"}
+{"level":30,"time":1712766889992,"pid":20172,"hostname":"Surelle","msg":"Chapter deletion completed"}
+{"level":30,"time":1712766895269,"pid":20172,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766895269,"pid":20172,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766895270,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766895270,"pid":20172,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712766895270,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: false"}
+{"level":30,"time":1712766895270,"pid":20172,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712766903812,"pid":20172,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712766903812,"pid":20172,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712766903812,"pid":20172,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_1"}
+{"level":30,"time":1712766903813,"pid":20172,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712766903813,"pid":20172,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712766903814,"pid":20172,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712766903814,"pid":20172,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712766903814,"pid":20172,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712766903815,"pid":20172,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712766903815,"pid":20172,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":40,"time":1712766903815,"pid":20172,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712766903815,"pid":20172,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712766904230,"pid":20172,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712766905708,"pid":20172,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712766906194,"pid":20172,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712766906194,"pid":20172,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712766915401,"pid":20172,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766915401,"pid":20172,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766915401,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766915401,"pid":20172,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712766915401,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766915401,"pid":20172,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712766921671,"pid":20172,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766921671,"pid":20172,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712766921671,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766921671,"pid":20172,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712766921671,"pid":20172,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712766921671,"pid":20172,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712766926554,"pid":20172,"hostname":"Surelle","msg":"Delete request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712766926556,"pid":20172,"hostname":"Surelle","msg":"Chapter_1 of Story_1 deleted successfully"}
+{"level":30,"time":1712766926556,"pid":20172,"hostname":"Surelle","msg":"Chapter deletion completed"}
+{"level":30,"time":1712848293180,"pid":13680,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712848293181,"pid":13680,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712848293181,"pid":13680,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_1"}
+{"level":30,"time":1712848293181,"pid":13680,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712848293182,"pid":13680,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712848293182,"pid":13680,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712848293183,"pid":13680,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712848293183,"pid":13680,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712848293184,"pid":13680,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712848293184,"pid":13680,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":40,"time":1712848293184,"pid":13680,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712848293184,"pid":13680,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712848293653,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712848294301,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712848294833,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712848294834,"pid":13680,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712848377077,"pid":13680,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712848377077,"pid":13680,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712848377077,"pid":13680,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_1"}
+{"level":40,"time":1712848377078,"pid":13680,"hostname":"Surelle","msg":"Unable to overwrite. Found existing chapter."}
+{"level":30,"time":1712848382482,"pid":13680,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712848382482,"pid":13680,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712848382482,"pid":13680,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712848382483,"pid":13680,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712848382483,"pid":13680,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712848382483,"pid":13680,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712848382484,"pid":13680,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712848382484,"pid":13680,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":30,"time":1712848382484,"pid":13680,"hostname":"Surelle","msg":"Free Scene Mode is selected."}
+{"level":30,"time":1712848384186,"pid":13680,"hostname":"Surelle","msg":"1_0.png is created."}
+{"level":30,"time":1712848393554,"pid":13680,"hostname":"Surelle","msg":"1_1.png is created."}
+{"level":30,"time":1712848397405,"pid":13680,"hostname":"Surelle","msg":"1_2.png is created."}
+{"level":30,"time":1712848397405,"pid":13680,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712848398034,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712848398490,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712848399127,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712848399127,"pid":13680,"hostname":"Surelle","msg":"Story asset completed."}

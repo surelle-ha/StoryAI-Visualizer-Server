@@ -533,7 +533,7 @@ app.post('/api/story/chapter/create', async (req, res) => {
                     filesByExtension[ext] = [];
                 }
 
-                filesByExtension[ext].push(`${base}:${port}/story_archive/Story_${story_id}/Chapter_${chapter_id}/${file}`);
+                filesByExtension[ext].push(`${base}/story_archive/Story_${story_id}/Chapter_${chapter_id}/${file}`);
             });
 
         } catch (err) {

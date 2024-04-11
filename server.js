@@ -190,6 +190,84 @@ app.get('/api/story/delete', async (req, res) => {
     }
 });
 
+app.post('/api/story/chapter/get', async (req, res) => {
+    const startTime = new Date();
+    const userAgent = req.headers['user-agent']; 
+    const requestHeaders = req.headers;
+    console.log('') || logger.info(`Request from ${userAgent}`);
+    try {
+        const { story_id, chapter_id } = req.body;
+        const isNullOrUndefined = (value) => value === null || value === undefined;
+        // Validate Post Body Request
+        if (isNullOrUndefined(story_id) || isNullOrUndefined(chapter_id)) {
+            logger.error('Missing required fields in the request body.');
+            return res.status(400).json({
+                status: 'error',
+                message: 'Missing required fields in the request body.'
+            });
+        }
+        const storyArchiveDir = path.join(__dirname, 'story_archive');
+        const storyDir = path.join(storyArchiveDir, "Story_" + story_id);
+        const chapterDir = path.join(storyDir, "Chapter_" + chapter_id);
+
+        logger.info(`Searching Story_${story_id}`);
+        const storyExists = fs.existsSync(storyDir);
+        logger.info(`Search for Story_${story_id} completed. Res: ${storyExists}`);
+        
+        logger.info(`Searching Chapter_${chapter_id}`);
+        const chapterExists = fs.existsSync(chapterDir);
+        logger.info(`Search for Story_${story_id} completed. Res: ${chapterExists}`);
+
+        const filesByExtension = {};
+        if(storyExists && chapterExists){
+            try {
+                const files = fs.readdirSync(chapterDir);
+                files.forEach((file) => {
+                    const ext = path.extname(file);
+        
+                    if (!filesByExtension[ext]) {
+                        filesByExtension[ext] = [];
+                    }
+        
+                    filesByExtension[ext].push(`${base}:${port}/story_archive/Story_${story_id}/Chapter_${chapter_id}/${file}`);
+                });
+            } catch (error) {
+                logger.error(`Error reading files in ${chapterDir}`);
+                throw err;
+            }
+        }
+        
+        const endTime = new Date();
+        const duration = endTime - startTime;
+        
+        logger.info(`Asset fetched.`);
+        return res.status(200).json({
+            status: 'success',
+            chapterExist: storyExists && chapterExists,
+            fileGenerated: filesByExtension,
+            requestTime: startTime.toISOString(),
+            responseSpeed: `${duration} ms`,
+            userAgent: userAgent, 
+            requestHeaders: requestHeaders 
+        });
+
+    } catch(error) {
+        const endTime = new Date();
+        const duration = endTime - startTime;
+
+        logger.error(`An error occurred while fetching chapter assets:`, error);
+        res.status(500).json({
+            status: 'error',
+            message: 'An error occurred while fetching chapter assets.',
+            error: error,
+            requestTime: startTime.toISOString(),
+            responseSpeed: `${duration} ms`,
+            userAgent: userAgent, 
+            requestHeaders: requestHeaders 
+        });
+    }
+});
+
 app.post('/api/story/chapter/create', async (req, res) => {
     const startTime = new Date();
     const userAgent = req.headers['user-agent']; 

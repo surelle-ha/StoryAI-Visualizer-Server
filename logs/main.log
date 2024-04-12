@@ -466,3 +466,1031 @@
 {"level":30,"time":1712848398490,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
 {"level":30,"time":1712848399127,"pid":13680,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
 {"level":30,"time":1712848399127,"pid":13680,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712859507649,"pid":31632,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712859507650,"pid":31632,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712859507651,"pid":31632,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712859507651,"pid":31632,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712859507651,"pid":31632,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712859507651,"pid":31632,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712859507652,"pid":31632,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712859507652,"pid":31632,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":30,"time":1712859507652,"pid":31632,"hostname":"Surelle","msg":"Free Scene Mode is selected."}
+{"level":30,"time":1712859508874,"pid":31632,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859508912,"pid":31632,"hostname":"Surelle","msg":"1_0.png is created."}
+{"level":30,"time":1712859510756,"pid":31632,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859511712,"pid":31632,"hostname":"Surelle","msg":"1_1.png is created."}
+{"level":30,"time":1712859513038,"pid":31632,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859513062,"pid":31632,"hostname":"Surelle","msg":"1_2.png is created."}
+{"level":30,"time":1712859513062,"pid":31632,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712859513500,"pid":31632,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712859514099,"pid":31632,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712859514510,"pid":31632,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712859514511,"pid":31632,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712859564406,"pid":46712,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712859564407,"pid":46712,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712859564407,"pid":46712,"hostname":"Surelle","msg":"Directory 'Story_1' created."}
+{"level":30,"time":1712859564407,"pid":46712,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712859564408,"pid":46712,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712859564409,"pid":46712,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712859564409,"pid":46712,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712859564410,"pid":46712,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712859564410,"pid":46712,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712859564411,"pid":46712,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":30,"time":1712859564411,"pid":46712,"hostname":"Surelle","msg":"Free Scene Mode is selected."}
+{"level":50,"time":1712859564875,"pid":46712,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712859623607,"pid":3720,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712859623607,"pid":3720,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712859623608,"pid":3720,"hostname":"Surelle","msg":"Directory 'Story_1' created."}
+{"level":30,"time":1712859623608,"pid":3720,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712859623608,"pid":3720,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712859623609,"pid":3720,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712859623609,"pid":3720,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712859623609,"pid":3720,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712859623610,"pid":3720,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712859623610,"pid":3720,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":30,"time":1712859623610,"pid":3720,"hostname":"Surelle","msg":"Free Scene Mode is selected."}
+{"level":30,"time":1712859624281,"pid":3720,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859624298,"pid":3720,"hostname":"Surelle","msg":"1_0.png is created."}
+{"level":30,"time":1712859625896,"pid":3720,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859627087,"pid":3720,"hostname":"Surelle","msg":"1_1.png is created."}
+{"level":30,"time":1712859627789,"pid":3720,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859627881,"pid":3720,"hostname":"Surelle","msg":"1_2.png is created."}
+{"level":30,"time":1712859627881,"pid":3720,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712859628411,"pid":3720,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712859630495,"pid":3720,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712859630931,"pid":3720,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712859630932,"pid":3720,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712859750864,"pid":45136,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712859750864,"pid":45136,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712859750864,"pid":45136,"hostname":"Surelle","msg":"Directory 'Story_1' created."}
+{"level":30,"time":1712859750864,"pid":45136,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712859750865,"pid":45136,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712859750865,"pid":45136,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712859750866,"pid":45136,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712859750866,"pid":45136,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712859750867,"pid":45136,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712859750868,"pid":45136,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":30,"time":1712859750868,"pid":45136,"hostname":"Surelle","msg":"Premium Scene Mode is selected."}
+{"level":50,"time":1712859758179,"pid":45136,"hostname":"Surelle","msg":"Error generating image for content:"}
+{"level":30,"time":1712859776918,"pid":45136,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859778994,"pid":45136,"hostname":"Surelle","msg":"1_1.png is created."}
+{"level":30,"time":1712859790882,"pid":45136,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712859792954,"pid":45136,"hostname":"Surelle","msg":"1_2.png is created."}
+{"level":30,"time":1712859792954,"pid":45136,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712859793376,"pid":45136,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712859793884,"pid":45136,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712859794045,"pid":45136,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712859794045,"pid":45136,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712860077546,"pid":45136,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712860077547,"pid":45136,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712860077547,"pid":45136,"hostname":"Surelle","msg":"Directory 'Story_1' created."}
+{"level":30,"time":1712860077547,"pid":45136,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712860077548,"pid":45136,"hostname":"Surelle","msg":"1_0.srt file created."}
+{"level":30,"time":1712860077548,"pid":45136,"hostname":"Surelle","msg":"1_0.sub file created."}
+{"level":30,"time":1712860077548,"pid":45136,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712860077549,"pid":45136,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":30,"time":1712860077549,"pid":45136,"hostname":"Surelle","msg":"1_2.srt file created."}
+{"level":30,"time":1712860077550,"pid":45136,"hostname":"Surelle","msg":"1_2.sub file created."}
+{"level":30,"time":1712860077550,"pid":45136,"hostname":"Surelle","msg":"Free Scene Mode is selected."}
+{"level":30,"time":1712860078536,"pid":45136,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712860078548,"pid":45136,"hostname":"Surelle","msg":"1_0.png is created."}
+{"level":30,"time":1712860080146,"pid":45136,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712860081315,"pid":45136,"hostname":"Surelle","msg":"1_1.png is created."}
+{"level":30,"time":1712860082614,"pid":45136,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712860082738,"pid":45136,"hostname":"Surelle","msg":"1_2.png is created."}
+{"level":30,"time":1712860082738,"pid":45136,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712860083187,"pid":45136,"hostname":"Surelle","msg":"Narration Generated for 1_0.mp3."}
+{"level":30,"time":1712860083640,"pid":45136,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712860084050,"pid":45136,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712860084051,"pid":45136,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712860427219,"pid":16132,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712860427220,"pid":16132,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712860427221,"pid":16132,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862220478,"pid":44652,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":50,"time":1712862220478,"pid":44652,"hostname":"Surelle","msg":"Missing required fields in the request body."}
+{"level":30,"time":1712862251225,"pid":44652,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862251225,"pid":44652,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712862251226,"pid":44652,"hostname":"Surelle","msg":"Directory 'Scenario_1' created."}
+{"level":50,"time":1712862251226,"pid":44652,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862288430,"pid":44652,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862288431,"pid":44652,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862288431,"pid":44652,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862294034,"pid":44652,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862294034,"pid":44652,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862294035,"pid":44652,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862396697,"pid":46196,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862396697,"pid":46196,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862396698,"pid":46196,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862412097,"pid":46196,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862412097,"pid":46196,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712862412098,"pid":46196,"hostname":"Surelle","msg":"Directory 'Story_1' created."}
+{"level":30,"time":1712862412098,"pid":46196,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712862412098,"pid":46196,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":50,"time":1712862412099,"pid":46196,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862433073,"pid":49520,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862433074,"pid":49520,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862433074,"pid":49520,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862462851,"pid":49520,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862462851,"pid":49520,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862462851,"pid":49520,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862486586,"pid":49520,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862486586,"pid":49520,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862486586,"pid":49520,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862716273,"pid":36176,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862716273,"pid":36176,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862716274,"pid":36176,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862820401,"pid":25088,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862820401,"pid":25088,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712862820401,"pid":25088,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_1 and Scene_1"}
+{"level":40,"time":1712862820401,"pid":25088,"hostname":"Surelle","msg":"Unable to overwrite. Found existing chapter."}
+{"level":30,"time":1712862835116,"pid":18776,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862835116,"pid":18776,"hostname":"Surelle","msg":"Overwrite option is disabled."}
+{"level":30,"time":1712862835116,"pid":18776,"hostname":"Surelle","msg":"Check overwrite. Searching Chapter_1 and Scene_1"}
+{"level":40,"time":1712862835117,"pid":18776,"hostname":"Surelle","msg":"Unable to overwrite. Found existing scene."}
+{"level":30,"time":1712862841858,"pid":18776,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862841858,"pid":18776,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862841859,"pid":18776,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862883619,"pid":11776,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862883619,"pid":11776,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":50,"time":1712862883620,"pid":11776,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712862900117,"pid":42408,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862900117,"pid":42408,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":40,"time":1712862900118,"pid":42408,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712862900118,"pid":42408,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712862900290,"pid":42408,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712862900291,"pid":42408,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712862919302,"pid":42408,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862919302,"pid":42408,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712862919302,"pid":42408,"hostname":"Surelle","msg":"Directory 'Scene_2' created."}
+{"level":40,"time":1712862919302,"pid":42408,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712862919302,"pid":42408,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712862919456,"pid":42408,"hostname":"Surelle","msg":"Narration Generated for 1_2.mp3."}
+{"level":30,"time":1712862919456,"pid":42408,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712862934886,"pid":42408,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862934886,"pid":42408,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712862934887,"pid":42408,"hostname":"Surelle","msg":"Directory 'Chapter_2' created."}
+{"level":30,"time":1712862934887,"pid":42408,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":40,"time":1712862934887,"pid":42408,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712862934887,"pid":42408,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712862935042,"pid":42408,"hostname":"Surelle","msg":"Narration Generated for 2_1.mp3."}
+{"level":30,"time":1712862935042,"pid":42408,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712862994561,"pid":24336,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862994561,"pid":24336,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712862994561,"pid":24336,"hostname":"Surelle","msg":"Directory 'Story_3' created."}
+{"level":30,"time":1712862994562,"pid":24336,"hostname":"Surelle","msg":"Directory 'Chapter_1' created."}
+{"level":30,"time":1712862994562,"pid":24336,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712862994562,"pid":24336,"hostname":"Surelle","msg":"1_1.srt file created."}
+{"level":30,"time":1712862994563,"pid":24336,"hostname":"Surelle","msg":"1_1.sub file created."}
+{"level":40,"time":1712862994563,"pid":24336,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712862994563,"pid":24336,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712862994769,"pid":24336,"hostname":"Surelle","msg":"Narration Generated for 1_1.mp3."}
+{"level":30,"time":1712862994770,"pid":24336,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712862997860,"pid":24336,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712862997860,"pid":24336,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712862997861,"pid":24336,"hostname":"Surelle","msg":"Directory 'Chapter_2' created."}
+{"level":30,"time":1712862997861,"pid":24336,"hostname":"Surelle","msg":"Directory 'Scene_1' created."}
+{"level":30,"time":1712862997861,"pid":24336,"hostname":"Surelle","msg":"2_1.srt file created."}
+{"level":30,"time":1712862997862,"pid":24336,"hostname":"Surelle","msg":"2_1.sub file created."}
+{"level":40,"time":1712862997862,"pid":24336,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712862997862,"pid":24336,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712862997970,"pid":24336,"hostname":"Surelle","msg":"Narration Generated for 2_1.mp3."}
+{"level":30,"time":1712862997971,"pid":24336,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712863013060,"pid":24336,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712863013061,"pid":24336,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712863013061,"pid":24336,"hostname":"Surelle","msg":"2_1.srt file created."}
+{"level":30,"time":1712863013062,"pid":24336,"hostname":"Surelle","msg":"2_1.sub file created."}
+{"level":40,"time":1712863013062,"pid":24336,"hostname":"Surelle","msg":"Null Function is accessed."}
+{"level":30,"time":1712863013062,"pid":24336,"hostname":"Surelle","msg":"Premium Narration Mode is selected."}
+{"level":50,"time":1712863016642,"pid":24336,"hostname":"Surelle","msg":"Premium narration generated for 2_1.mp3"}
+{"level":30,"time":1712863016642,"pid":24336,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712863041449,"pid":24336,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712863041449,"pid":24336,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712863041449,"pid":24336,"hostname":"Surelle","msg":"2_1.srt file created."}
+{"level":30,"time":1712863041450,"pid":24336,"hostname":"Surelle","msg":"2_1.sub file created."}
+{"level":30,"time":1712863041450,"pid":24336,"hostname":"Surelle","msg":"Free Scene Mode is selected."}
+{"level":30,"time":1712863041849,"pid":24336,"hostname":"Surelle","msg":"2_1.png is created."}
+{"level":30,"time":1712863041849,"pid":24336,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712863042001,"pid":24336,"hostname":"Surelle","msg":"Narration Generated for 2_1.mp3."}
+{"level":30,"time":1712863042001,"pid":24336,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712863050692,"pid":24336,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":40,"time":1712863050692,"pid":24336,"hostname":"Surelle","msg":"Overwrite option is enabled."}
+{"level":30,"time":1712863050693,"pid":24336,"hostname":"Surelle","msg":"2_1.srt file created."}
+{"level":30,"time":1712863050693,"pid":24336,"hostname":"Surelle","msg":"2_1.sub file created."}
+{"level":30,"time":1712863050693,"pid":24336,"hostname":"Surelle","msg":"Premium Scene Mode is selected."}
+{"level":30,"time":1712863074546,"pid":24336,"hostname":"Surelle","msg":"2_1.png is created."}
+{"level":30,"time":1712863074546,"pid":24336,"hostname":"Surelle","msg":"Free Narration Mode is selected."}
+{"level":30,"time":1712863074701,"pid":24336,"hostname":"Surelle","msg":"Narration Generated for 2_1.mp3."}
+{"level":30,"time":1712863074702,"pid":24336,"hostname":"Surelle","msg":"Story asset completed."}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Searching Scene_1"}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Search for Scene_1 completed. Res: true"}
+{"level":30,"time":1712863388145,"pid":26992,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712863421224,"pid":45388,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712863421224,"pid":45388,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712863421224,"pid":45388,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863421224,"pid":45388,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712863421224,"pid":45388,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863421224,"pid":45388,"hostname":"Surelle","msg":"Searching Scene_1"}
+{"level":30,"time":1712863421224,"pid":45388,"hostname":"Surelle","msg":"Search for Scene_1 completed. Res: true"}
+{"level":30,"time":1712863421225,"pid":45388,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Searching Scene_2"}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Search for Scene_2 completed. Res: true"}
+{"level":30,"time":1712863438599,"pid":45388,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Searching Scene_3"}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Search for Scene_3 completed. Res: false"}
+{"level":30,"time":1712863441273,"pid":45388,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712863476648,"pid":29396,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712863476649,"pid":29396,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712863476649,"pid":29396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863476649,"pid":29396,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712863476649,"pid":29396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863476649,"pid":29396,"hostname":"Surelle","msg":"Searching Scene_3"}
+{"level":30,"time":1712863476649,"pid":29396,"hostname":"Surelle","msg":"Search for Scene_3 completed. Res: false"}
+{"level":30,"time":1712863476649,"pid":29396,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712863481911,"pid":29396,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712863481911,"pid":29396,"hostname":"Surelle","msg":"Searching Story_1"}
+{"level":30,"time":1712863481911,"pid":29396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863481911,"pid":29396,"hostname":"Surelle","msg":"Searching Chapter_1"}
+{"level":30,"time":1712863481911,"pid":29396,"hostname":"Surelle","msg":"Search for Story_1 completed. Res: true"}
+{"level":30,"time":1712863481911,"pid":29396,"hostname":"Surelle","msg":"Searching Scene_2"}
+{"level":30,"time":1712863481911,"pid":29396,"hostname":"Surelle","msg":"Search for Scene_2 completed. Res: true"}
+{"level":30,"time":1712863481912,"pid":29396,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712863536897,"pid":29396,"hostname":"Surelle","msg":"Request from PostmanRuntime/7.37.3"}
+{"level":30,"time":1712863536898,"pid":29396,"hostname":"Surelle","msg":"Searching Story_3"}
+{"level":30,"time":1712863536898,"pid":29396,"hostname":"Surelle","msg":"Search for Story_3 completed. Res: true"}
+{"level":30,"time":1712863536898,"pid":29396,"hostname":"Surelle","msg":"Searching Chapter_2"}
+{"level":30,"time":1712863536898,"pid":29396,"hostname":"Surelle","msg":"Search for Story_3 completed. Res: true"}
+{"level":30,"time":1712863536898,"pid":29396,"hostname":"Surelle","msg":"Searching Scene_1"}
+{"level":30,"time":1712863536898,"pid":29396,"hostname":"Surelle","msg":"Search for Scene_1 completed. Res: true"}
+{"level":30,"time":1712863536898,"pid":29396,"hostname":"Surelle","msg":"Asset fetched."}
+{"level":30,"time":1712883299763,"pid":44212,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":50,"time":1712883299763,"pid":44212,"hostname":"Surelle","msg":"Missing story_id or chapter_id in the request"}
+{"level":30,"time":1712883324211,"pid":11280,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":50,"time":1712883324211,"pid":11280,"hostname":"Surelle","msg":"Missing story_id or chapter_id in the request"}
+{"level":30,"time":1712883463388,"pid":38432,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712883463389,"pid":38432,"hostname":"Surelle","msg":"Directory 'Story_1' Initialized."}
+{"level":30,"time":1712883463389,"pid":38432,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1712883463389,"pid":38432,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712883488378,"pid":38432,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712883488379,"pid":38432,"hostname":"Surelle","msg":"Directory 'Story_2' Initialized."}
+{"level":30,"time":1712883488379,"pid":38432,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1712883488379,"pid":38432,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712883495273,"pid":38432,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712883495274,"pid":38432,"hostname":"Surelle","msg":"Directory 'Chapter_2' Initialized."}
+{"level":30,"time":1712883495274,"pid":38432,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712883497311,"pid":38432,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712883497311,"pid":38432,"hostname":"Surelle","msg":"Directory 'Chapter_3' Initialized."}
+{"level":30,"time":1712883497311,"pid":38432,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712883940532,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712883940532,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712883953874,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712883953875,"pid":47148,"hostname":"Surelle","msg":"Directory 'Story_4' Initialized."}
+{"level":30,"time":1712883953875,"pid":47148,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1712883953875,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884001163,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884001164,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884312020,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884312021,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884342912,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884342912,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884370225,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884370225,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884447490,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884447490,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884531185,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884531185,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884616307,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884616307,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884624689,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884624690,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884626846,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884626846,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884640825,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884640826,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884793708,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884793708,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884800642,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884800642,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712884828050,"pid":47148,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712884828050,"pid":47148,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712886277769,"pid":48268,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712886277770,"pid":48268,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712886277771,"pid":48268,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712886277771,"pid":48268,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712886291481,"pid":48268,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712886291482,"pid":48268,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712886291483,"pid":48268,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712886291483,"pid":48268,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712886292932,"pid":48268,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712886292933,"pid":48268,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712886292933,"pid":48268,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712886292933,"pid":48268,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712886299992,"pid":48268,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712886299993,"pid":48268,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712886299993,"pid":48268,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712886299993,"pid":48268,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712886780338,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712886780339,"pid":25488,"hostname":"Surelle","msg":"There are currently 4 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712886780340,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_5' created for the next scene."}
+{"level":30,"time":1712886780340,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712886784372,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712886784373,"pid":25488,"hostname":"Surelle","msg":"There are currently 5 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712886784374,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_6' created for the next scene."}
+{"level":30,"time":1712886784374,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712886788609,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712886788609,"pid":25488,"hostname":"Surelle","msg":"There are currently 6 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712886788609,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_7' created for the next scene."}
+{"level":30,"time":1712886788609,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888178863,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888178863,"pid":25488,"hostname":"Surelle","msg":"There are currently 7 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888178864,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_8' created for the next scene."}
+{"level":30,"time":1712888178864,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888202812,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888202813,"pid":25488,"hostname":"Surelle","msg":"There are currently 8 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888202813,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_9' created for the next scene."}
+{"level":30,"time":1712888202813,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888204460,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888204460,"pid":25488,"hostname":"Surelle","msg":"There are currently 9 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888204461,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_10' created for the next scene."}
+{"level":30,"time":1712888204461,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888205340,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888205341,"pid":25488,"hostname":"Surelle","msg":"There are currently 10 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888205341,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_11' created for the next scene."}
+{"level":30,"time":1712888205341,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888254273,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888254274,"pid":25488,"hostname":"Surelle","msg":"There are currently 11 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888254275,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_12' created for the next scene."}
+{"level":30,"time":1712888254275,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888280379,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888280380,"pid":25488,"hostname":"Surelle","msg":"There are currently 12 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888280380,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_13' created for the next scene."}
+{"level":30,"time":1712888280380,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888294847,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888294848,"pid":25488,"hostname":"Surelle","msg":"There are currently 13 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888294848,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_14' created for the next scene."}
+{"level":30,"time":1712888294848,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888453734,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888453735,"pid":25488,"hostname":"Surelle","msg":"There are currently 14 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888453735,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_15' created for the next scene."}
+{"level":30,"time":1712888453735,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888491953,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888491954,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1712888491954,"pid":25488,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888491954,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712888491954,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888504848,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888504848,"pid":25488,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888504849,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712888504849,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888556071,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888556072,"pid":25488,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888556072,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712888556072,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888656424,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888656424,"pid":25488,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888656425,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712888656425,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888765471,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888765472,"pid":25488,"hostname":"Surelle","msg":"There are currently 4 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888765473,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_5' created for the next scene."}
+{"level":30,"time":1712888765473,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888769524,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888769525,"pid":25488,"hostname":"Surelle","msg":"There are currently 5 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888769525,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_6' created for the next scene."}
+{"level":30,"time":1712888769525,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888771655,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888771655,"pid":25488,"hostname":"Surelle","msg":"There are currently 6 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888771656,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_7' created for the next scene."}
+{"level":30,"time":1712888771656,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712888815352,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712888815353,"pid":25488,"hostname":"Surelle","msg":"There are currently 7 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712888815353,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_8' created for the next scene."}
+{"level":30,"time":1712888815353,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712889467039,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712889467040,"pid":25488,"hostname":"Surelle","msg":"There are currently 8 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712889467041,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_9' created for the next scene."}
+{"level":30,"time":1712889467041,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712889701480,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712889701480,"pid":25488,"hostname":"Surelle","msg":"There are currently 9 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712889701481,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_10' created for the next scene."}
+{"level":30,"time":1712889701481,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712889705262,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712889705262,"pid":25488,"hostname":"Surelle","msg":"There are currently 10 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712889705263,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_11' created for the next scene."}
+{"level":30,"time":1712889705263,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712889708150,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712889708150,"pid":25488,"hostname":"Surelle","msg":"There are currently 11 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712889708150,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_12' created for the next scene."}
+{"level":30,"time":1712889708150,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712889713310,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712889713311,"pid":25488,"hostname":"Surelle","msg":"There are currently 12 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712889713312,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_13' created for the next scene."}
+{"level":30,"time":1712889713312,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712889855880,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712889855880,"pid":25488,"hostname":"Surelle","msg":"There are currently 13 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712889855881,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_14' created for the next scene."}
+{"level":30,"time":1712889855881,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712889994632,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712889994633,"pid":25488,"hostname":"Surelle","msg":"There are currently 14 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712889994633,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_15' created for the next scene."}
+{"level":30,"time":1712889994633,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890006311,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890006312,"pid":25488,"hostname":"Surelle","msg":"There are currently 15 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890006312,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_16' created for the next scene."}
+{"level":30,"time":1712890006312,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890009236,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890009237,"pid":25488,"hostname":"Surelle","msg":"There are currently 16 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890009237,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_17' created for the next scene."}
+{"level":30,"time":1712890009237,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890010764,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890010764,"pid":25488,"hostname":"Surelle","msg":"There are currently 17 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890010765,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_18' created for the next scene."}
+{"level":30,"time":1712890010765,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890331279,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890331279,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1712890331279,"pid":25488,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890331279,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712890331279,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890337454,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890337454,"pid":25488,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890337454,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712890337455,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890338675,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890338676,"pid":25488,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890338676,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712890338676,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890339699,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890339699,"pid":25488,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890339699,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712890339699,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890340747,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890340747,"pid":25488,"hostname":"Surelle","msg":"There are currently 4 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890340748,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_5' created for the next scene."}
+{"level":30,"time":1712890340748,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890341763,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890341763,"pid":25488,"hostname":"Surelle","msg":"There are currently 5 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890341764,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_6' created for the next scene."}
+{"level":30,"time":1712890341764,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712890343694,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712890343695,"pid":25488,"hostname":"Surelle","msg":"There are currently 6 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712890343695,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_7' created for the next scene."}
+{"level":30,"time":1712890343695,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892068207,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892068207,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892102676,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892102676,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892155812,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892155812,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892178515,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892178515,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892229054,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892229054,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892282782,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892282783,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892305669,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892305669,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892321383,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892321383,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892340500,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892340500,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892353252,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892353253,"pid":25488,"hostname":"Surelle","msg":"Directory 'Story_3' Initialized."}
+{"level":30,"time":1712892353253,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1712892353253,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892394541,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892394542,"pid":25488,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712892394542,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_3\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712892394542,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892406565,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892406566,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_2' Initialized."}
+{"level":30,"time":1712892406566,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892410716,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892410716,"pid":25488,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_2'."}
+{"level":30,"time":1712892410717,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_3\\Chapter_2\\Scene_1' created for the next scene."}
+{"level":30,"time":1712892410717,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892415603,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892415603,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_3' Initialized."}
+{"level":30,"time":1712892415603,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892421332,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892421332,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892442308,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892442309,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892486198,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892486198,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892527272,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892527272,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892556132,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892556132,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892751094,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892751095,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892824614,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892824614,"pid":25488,"hostname":"Surelle","msg":"Directory 'Story_78' Initialized."}
+{"level":30,"time":1712892824614,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_78' Initialized."}
+{"level":30,"time":1712892824614,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892854756,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892854757,"pid":25488,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_78'."}
+{"level":30,"time":1712892854757,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_78\\Chapter_78\\Scene_1' created for the next scene."}
+{"level":30,"time":1712892854757,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892866194,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892866195,"pid":25488,"hostname":"Surelle","msg":"Directory 'Story_12' Initialized."}
+{"level":30,"time":1712892866195,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_32' Initialized."}
+{"level":30,"time":1712892866195,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892887670,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892887671,"pid":25488,"hostname":"Surelle","msg":"Directory 'Chapter_87' Initialized."}
+{"level":30,"time":1712892887671,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892894597,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892894597,"pid":25488,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_87'."}
+{"level":30,"time":1712892894598,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_12\\Chapter_87\\Scene_1' created for the next scene."}
+{"level":30,"time":1712892894598,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892914045,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892914045,"pid":25488,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_87'."}
+{"level":30,"time":1712892914045,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_12\\Chapter_87\\Scene_2' created for the next scene."}
+{"level":30,"time":1712892914045,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892914745,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892914746,"pid":25488,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_87'."}
+{"level":30,"time":1712892914746,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_12\\Chapter_87\\Scene_3' created for the next scene."}
+{"level":30,"time":1712892914746,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892915370,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892915370,"pid":25488,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_87'."}
+{"level":30,"time":1712892915371,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_12\\Chapter_87\\Scene_4' created for the next scene."}
+{"level":30,"time":1712892915371,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892916025,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892916026,"pid":25488,"hostname":"Surelle","msg":"There are currently 4 scene(s) in 'Chapter_87'."}
+{"level":30,"time":1712892916026,"pid":25488,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_12\\Chapter_87\\Scene_5' created for the next scene."}
+{"level":30,"time":1712892916026,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712892941406,"pid":25488,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712892941406,"pid":25488,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712931234701,"pid":47676,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712931234701,"pid":47676,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712931242062,"pid":47676,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712931242062,"pid":47676,"hostname":"Surelle","msg":"There are currently 7 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712931242063,"pid":47676,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_8' created for the next scene."}
+{"level":30,"time":1712931242063,"pid":47676,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712931246122,"pid":47676,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712931246122,"pid":47676,"hostname":"Surelle","msg":"There are currently 8 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712931246123,"pid":47676,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_9' created for the next scene."}
+{"level":30,"time":1712931246123,"pid":47676,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712931983698,"pid":47676,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712931983699,"pid":47676,"hostname":"Surelle","msg":"There are currently 9 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712931983699,"pid":47676,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_10' created for the next scene."}
+{"level":30,"time":1712931983699,"pid":47676,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712934813485,"pid":22924,"hostname":"Surelle","msg":"Chapter directory 'Chapter_1' for story '1' deleted."}
+{"level":30,"time":1712934825449,"pid":22924,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712934825450,"pid":22924,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1712934825450,"pid":22924,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712934825450,"pid":22924,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712934825450,"pid":22924,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712935246913,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712935246914,"pid":13888,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712935246914,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712935246914,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712935247821,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712935247822,"pid":13888,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712935247822,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712935247822,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712935314124,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_1' for chapter '1' deleted."}
+{"level":40,"time":1712935321392,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_1' for chapter '1' does not exist."}
+{"level":30,"time":1712935329682,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":40,"time":1712936179674,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_1' for chapter '1' does not exist."}
+{"level":30,"time":1712936182616,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936182616,"pid":13888,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936182617,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712936182617,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936184230,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936184230,"pid":13888,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712936184231,"pid":13888,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712936186205,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936186205,"pid":13888,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712936186205,"pid":13888,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712936187605,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936187606,"pid":13888,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712936187606,"pid":13888,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712936190728,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712936190736,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936190737,"pid":13888,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936190737,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712936190737,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936197386,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712936197400,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936197401,"pid":13888,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936197401,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712936197401,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936215432,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936215432,"pid":13888,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936215433,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712936215433,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936216236,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936216237,"pid":13888,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936216237,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712936216237,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936216926,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936216926,"pid":13888,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936216926,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712936216927,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936218141,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936218141,"pid":13888,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936218141,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712936218141,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936223682,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' deleted."}
+{"level":30,"time":1712936223690,"pid":13888,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936223691,"pid":13888,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936223691,"pid":13888,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712936223691,"pid":13888,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936362930,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' deleted."}
+{"level":30,"time":1712936365757,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712936384705,"pid":13888,"hostname":"Surelle","msg":"Scene directory 'Scene_1' for chapter '1' deleted."}
+{"level":30,"time":1712936637608,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936637608,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936641136,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936641137,"pid":17512,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712936641137,"pid":17512,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712936675007,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936675008,"pid":17512,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712936675008,"pid":17512,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712936694639,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936694639,"pid":17512,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936694640,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712936694640,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936696597,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936696597,"pid":17512,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936696597,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712936696598,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712936720991,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712936720992,"pid":17512,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712936720992,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712936720992,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":40,"time":1712936726004,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_undefined' for chapter '1' does not exist."}
+{"level":40,"time":1712936979923,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_undefined' for chapter '1' does not exist."}
+{"level":40,"time":1712936984197,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_undefined' for chapter '1' does not exist."}
+{"level":40,"time":1712937067650,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_undefined' for chapter '1' does not exist."}
+{"level":30,"time":1712937102106,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_1' for chapter '1' deleted."}
+{"level":30,"time":1712937136930,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712937138834,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937138834,"pid":17512,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712937138834,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712937138835,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712937140572,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937140573,"pid":17512,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712937140573,"pid":17512,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712937144913,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712937147168,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937147168,"pid":17512,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712937147168,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712937147168,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712937149533,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937149533,"pid":17512,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712937149533,"pid":17512,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712937153464,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937153465,"pid":17512,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712937153465,"pid":17512,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712937159123,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712937161271,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937161272,"pid":17512,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712937161272,"pid":17512,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712937165121,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712937166719,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937166720,"pid":17512,"hostname":"Surelle","msg":"There are currently 0 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712937166720,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712937166720,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712937168740,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937168741,"pid":17512,"hostname":"Surelle","msg":"There are currently 1 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712937168741,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712937168741,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712937170252,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937170252,"pid":17512,"hostname":"Surelle","msg":"There are currently 2 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712937170253,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712937170253,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712937171100,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937171101,"pid":17512,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712937171101,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712937171101,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712937171967,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937171968,"pid":17512,"hostname":"Surelle","msg":"There are currently 4 scene(s) in 'Chapter_1'."}
+{"level":30,"time":1712937171968,"pid":17512,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_5' created for the next scene."}
+{"level":30,"time":1712937171968,"pid":17512,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712937176224,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_5' for chapter '1' deleted."}
+{"level":30,"time":1712937179838,"pid":17512,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712937182144,"pid":17512,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937182144,"pid":17512,"hostname":"Surelle","msg":"There are currently 3 scene(s) in 'Chapter_1'."}
+{"level":50,"time":1712937182145,"pid":17512,"hostname":"Surelle","msg":"An error occurred while building story board:"}
+{"level":30,"time":1712937420485,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937420486,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712937420486,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937426065,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712937427653,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937427654,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712937427654,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937430585,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937430586,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_5' created for the next scene."}
+{"level":30,"time":1712937430586,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937432401,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937432402,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_6' created for the next scene."}
+{"level":30,"time":1712937432402,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937433566,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937433567,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_7' created for the next scene."}
+{"level":30,"time":1712937433567,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937444172,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937444173,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_8' created for the next scene."}
+{"level":30,"time":1712937444173,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937445233,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937445234,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_9' created for the next scene."}
+{"level":30,"time":1712937445234,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937445832,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937445833,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_10' created for the next scene."}
+{"level":30,"time":1712937445833,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937446544,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937446545,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_11' created for the next scene."}
+{"level":30,"time":1712937446545,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937447192,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937447194,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_12' created for the next scene."}
+{"level":30,"time":1712937447194,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937692688,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937692689,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_13' created for the next scene."}
+{"level":30,"time":1712937692689,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937697028,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937697029,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_14' created for the next scene."}
+{"level":30,"time":1712937697029,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937875063,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937875064,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_15' created for the next scene."}
+{"level":30,"time":1712937875064,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937876532,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937876533,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_16' created for the next scene."}
+{"level":30,"time":1712937876533,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937878605,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937878606,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_17' created for the next scene."}
+{"level":30,"time":1712937878606,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937932761,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937932762,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712937932762,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937935437,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937935439,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712937935439,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937937572,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937937573,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712937937573,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937941235,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712937943841,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712937945376,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937945377,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712937945377,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712937946925,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712937946926,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712937946926,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712938860741,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712938860741,"pid":39408,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712940243161,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940243162,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712940243162,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940702872,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' deleted."}
+{"level":30,"time":1712940763472,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_1' for chapter '1' deleted."}
+{"level":30,"time":1712940873848,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940873850,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712940873850,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940898070,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940898072,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712940898072,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940901507,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940901508,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_5' created for the next scene."}
+{"level":30,"time":1712940901508,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940904018,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940904019,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_6' created for the next scene."}
+{"level":30,"time":1712940904019,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940905780,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940905781,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_7' created for the next scene."}
+{"level":30,"time":1712940905781,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940911045,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' deleted."}
+{"level":40,"time":1712940912693,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' does not exist."}
+{"level":30,"time":1712940920161,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_7' for chapter '1' deleted."}
+{"level":30,"time":1712940923812,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_6' for chapter '1' deleted."}
+{"level":30,"time":1712940927329,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_5' for chapter '1' deleted."}
+{"level":30,"time":1712940928702,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940928703,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712940928703,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940931698,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' deleted."}
+{"level":30,"time":1712940935192,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712940936920,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940936921,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712940936921,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940938172,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940938174,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712940938174,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940939427,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940939428,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_5' created for the next scene."}
+{"level":30,"time":1712940939428,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940941276,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940941277,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_6' created for the next scene."}
+{"level":30,"time":1712940941277,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712940942696,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712940942697,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_7' created for the next scene."}
+{"level":30,"time":1712940942697,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712941141768,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' deleted."}
+{"level":30,"time":1712941144820,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_5' for chapter '1' deleted."}
+{"level":30,"time":1712941152105,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_6' for chapter '1' deleted."}
+{"level":30,"time":1712941163229,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_7' for chapter '1' deleted."}
+{"level":30,"time":1712941172322,"pid":39408,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712941174394,"pid":39408,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712941174395,"pid":39408,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712941174395,"pid":39408,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":30,"time":1712943132734,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943175783,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943221425,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943240041,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943257185,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943386882,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943398231,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943403605,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943455960,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943580696,"pid":4288,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712943677024,"pid":12940,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712944074878,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712944074882,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712944074884,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712944097478,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712944097480,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712944097481,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712944110343,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712944110347,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712944110351,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712944132319,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712944132321,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712944132324,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712944162867,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712944162870,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712944162871,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712944363474,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712944363476,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712944363477,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946186647,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946186649,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946186650,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946192839,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946192841,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946192841,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946542649,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946542651,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946542652,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946661915,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946661916,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946661917,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946669391,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946669393,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946669395,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946749391,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946749393,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946749394,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946768057,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946768058,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946768058,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946772260,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946772261,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946772262,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946795173,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946795174,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946795175,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712946822034,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712946822038,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712946822041,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950220283,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950230146,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950230147,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950230149,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950258089,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950258091,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950258092,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950293217,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950293219,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950293220,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950298409,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950301212,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950301212,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950301213,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950306482,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950332972,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950332974,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950332977,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950353681,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950353683,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950353685,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950358873,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950378546,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950378549,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950378551,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950384056,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950386694,"pid":41732,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950386697,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950386698,"pid":41732,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950494058,"pid":18592,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950494062,"pid":18592,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950494064,"pid":18592,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950747629,"pid":30344,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950777545,"pid":30344,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950893577,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950893579,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950893580,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950897234,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950897237,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950897239,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950897242,"pid":12736,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712950897243,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":40,"time":1712950897244,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":30,"time":1712950899004,"pid":12736,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712950899006,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":40,"time":1712950899009,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":30,"time":1712950899012,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950899014,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950899016,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950906873,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712950909610,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712950909612,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":30,"time":1712950909614,"pid":12736,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712950909616,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":40,"time":1712950909617,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950909618,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712950925937,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_3 saved successfully."}
+{"level":30,"time":1712950928912,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712950928913,"pid":12736,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712950928915,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950928916,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712950928917,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":40,"time":1712950928918,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":30,"time":1712950977948,"pid":12736,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712950981155,"pid":12736,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712950981156,"pid":12736,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712950981158,"pid":12736,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712950981159,"pid":12736,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712952050787,"pid":26748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712952050792,"pid":26748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712952050793,"pid":26748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712952050795,"pid":26748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712952876802,"pid":26748,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712952879419,"pid":26748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712952879420,"pid":26748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712952879421,"pid":26748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712952879423,"pid":26748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712952960225,"pid":27904,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712952960230,"pid":27904,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712952960231,"pid":27904,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712952960233,"pid":27904,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":50,"time":1712953965764,"pid":23768,"hostname":"Surelle","msg":"Error saving content for Scene_1:"}
+{"level":50,"time":1712953994639,"pid":23768,"hostname":"Surelle","msg":"Error saving content for Scene_1:"}
+{"level":30,"time":1712954211627,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712954306697,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954306700,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954306702,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954306704,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712954312356,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712954375459,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712954395306,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712954427235,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712954505398,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712954738371,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954738372,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954738373,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954738374,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712954803363,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954803364,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954803366,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954803367,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712954835229,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954835236,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954835238,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954835240,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712954883477,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954883479,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954883484,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954883485,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712954919518,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954919520,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954919526,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954919531,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712954950856,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954950857,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954950858,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954950858,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712954987270,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712954987275,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712954987279,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712954987282,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712955117539,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712955117541,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712955117542,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712955117547,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712955138490,"pid":3748,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712955138491,"pid":3748,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712955138494,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712955138495,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712955142039,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}

@@ -48,6 +48,7 @@ if (!existsSync(storyAssetDir)) { mkdirSync(storyAssetDir); }
 app.use('/story_archive', express.static(storyAssetDir));
 
 app.get('/', (req, res) => {
+    logger.info(`API ACCESSED`);
     return res.status(200).json(
         {
             status: 'success', 

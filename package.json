@@ -24,9 +24,9 @@
     "openai": "^4.33.0",
     "pino": "^8.20.0",
     "playht": "^0.9.8",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "pino-pretty": "^11.0.0"
   },
   "devDependencies": {
-    "pino-pretty": "^11.0.0"
   }
 }

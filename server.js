@@ -411,14 +411,14 @@ app.post('/api/scenario/prompt/fetch', async (req, res) => {
     }
 });
 
-app.post('/api/scene/narrate/free/create', async (req, res) => {
+app.post('/api/scenario/narrate/free/create', async (req, res) => {
     const { story_id, chapter_id, scene_id } = req.body;
 
     // Define the directory path for the scene
     const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
 
     // Define the path for the content file and check if it exists
-    const contentFilePath = path.join(sceneDirPath, 'content.txt');
+    const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
     if (!fs.existsSync(contentFilePath)) {
         logger.error('Content file does not exist');
         return res.status(404).send('Content file not found');
@@ -468,6 +468,19 @@ app.post('/api/scene/narrate/free/create', async (req, res) => {
     }
 });
 
+app.get('/api/scene/narrate/fetch', (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.query;
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const audioFilePath = path.join(sceneDirPath, 'narration.mp3');
+
+    if (fs.existsSync(audioFilePath)) {
+        res.sendFile(audioFilePath);
+    } else {
+        logger.error('Narration file does not exist');
+        res.status(404).send('Narration file not found');
+    }
+});
+
 app.get('/api/scenario/narrate/premium/voices', async (req, res) => {
     const url = 'https://api.play.ht/api/v2/voices';
     const options = {
@@ -487,6 +500,54 @@ app.get('/api/scenario/narrate/premium/voices', async (req, res) => {
     }
 });
 
+app.post('/api/scenario/narrate/premium/create', async (req, res) => {
+    const { story_id, chapter_id, scene_id, voiceId } = req.body;
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
+
+    if (!fs.existsSync(contentFilePath)) {
+        console.error('Content file does not exist');
+        return res.status(404).send('Content file not found');
+    }
+
+    const storyContent = fs.readFileSync(contentFilePath, 'utf8');
+    const audio_file = 'narration.mp3';
+    const filePath = path.join(sceneDirPath, audio_file);
+    const grpcFileStream = fs.createWriteStream(filePath);
+
+    try {
+        const grpcStream = await PlayHTAPI.stream(storyContent, {
+            voiceId: voiceId, // This ID should come from the frontend selection
+            outputFormat: 'mp3', 
+            quality: 'draft',
+            speed: 1,
+            textGuidance: 2.0,
+            voiceEngine: 'PlayHT2.0'
+        });
+
+        grpcStream.on('data', (chunk) => {
+            grpcFileStream.write(chunk);
+        });
+
+        await new Promise((resolve, reject) => {
+            grpcStream.on('end', resolve);
+            grpcStream.on('error', reject);
+        });
+    } catch (error) {
+        console.error(`Error generating audio for ${storyContent}:`, error);
+        res.status(500).send('Failed to generate narration');
+        return;
+    }
+
+    grpcFileStream.end();
+    await new Promise((resolve, reject) => {
+        grpcFileStream.on('finish', resolve);
+        grpcFileStream.on('error', reject);
+    });
+
+    console.log(`Narration Generated for ${audio_file}.`);
+    res.status(200).send(`Narration generated successfully: ${filePath}`);
+});
 
 
 

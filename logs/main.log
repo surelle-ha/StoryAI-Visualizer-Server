@@ -1494,3 +1494,80 @@
 {"level":40,"time":1712955138494,"pid":3748,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
 {"level":40,"time":1712955138495,"pid":3748,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
 {"level":30,"time":1712955142039,"pid":3748,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712956265446,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712956265448,"pid":22308,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712956265449,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712956265449,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712956771861,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712956771863,"pid":22308,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712956771864,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712956771866,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712956888706,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_1' for chapter '1' deleted."}
+{"level":30,"time":1712956891931,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_2' for chapter '1' deleted."}
+{"level":30,"time":1712956917732,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712956917733,"pid":22308,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1712956917733,"pid":22308,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":40,"time":1712956917759,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_1 does not exist."}
+{"level":40,"time":1712956917762,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":30,"time":1712956931864,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712956934140,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1712956934143,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":30,"time":1712956948275,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1712956950229,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712956950232,"pid":22308,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1712956957743,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712956957745,"pid":22308,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1712956957745,"pid":22308,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":40,"time":1712956957767,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712956957768,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712956958827,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712956958828,"pid":22308,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712956958828,"pid":22308,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":40,"time":1712956958844,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1712956958845,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":30,"time":1712956966025,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712956969696,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712956969699,"pid":22308,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712956969703,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712956969705,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712956978608,"pid":22308,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712956980314,"pid":22308,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712957028888,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712957028889,"pid":22308,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712957028889,"pid":22308,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":40,"time":1712957028911,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1712957028912,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":30,"time":1712957072372,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712957072372,"pid":22308,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712957072373,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712957072373,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":40,"time":1712957072374,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1712957072375,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":30,"time":1712957086563,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712957086564,"pid":22308,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_4' created for the next scene."}
+{"level":30,"time":1712957086565,"pid":22308,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":40,"time":1712957086595,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_4 does not exist."}
+{"level":40,"time":1712957086596,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_4 does not exist."}
+{"level":30,"time":1712957091712,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' deleted."}
+{"level":40,"time":1712957093322,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_4' for chapter '1' does not exist."}
+{"level":30,"time":1712957099799,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":40,"time":1712957100659,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' does not exist."}
+{"level":30,"time":1712957102714,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712957102716,"pid":22308,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712957102717,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712957102717,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1712957104662,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712957104663,"pid":22308,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer Server\\story_archive\\Story_1\\Chapter_1\\Scene_3' created for the next scene."}
+{"level":30,"time":1712957104663,"pid":22308,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":40,"time":1712957104683,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1712957104684,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":30,"time":1712957107627,"pid":22308,"hostname":"Surelle","msg":"Scene directory 'Scene_3' for chapter '1' deleted."}
+{"level":30,"time":1712957113621,"pid":22308,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1712957643118,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712957643118,"pid":22308,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712957645417,"pid":22308,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}
+{"level":30,"time":1712957645418,"pid":22308,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1712957646150,"pid":22308,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1712957646152,"pid":22308,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1712957646153,"pid":22308,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1712957646154,"pid":22308,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}

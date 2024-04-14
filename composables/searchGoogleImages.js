@@ -12,8 +12,13 @@ const searchGoogleImages = async (apiKey, cseId, query, numImages = 1) => {
 
     try {
         const response = await axios.get(searchUrl, { params });
-        const imageUrls = response.data.items.map(item => item.link);
-        return imageUrls;
+        if (response.data.items) {
+            const imageUrls = response.data.items.map(item => item.link);
+            return imageUrls;
+        } else {
+            console.error('No images found or items is undefined');
+            return [];
+        }
     } catch (error) {
         console.error('Error during image search:', error);
         return [];

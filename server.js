@@ -549,6 +549,157 @@ app.post('/api/scenario/narrate/premium/create', async (req, res) => {
     res.status(200).send(`Narration generated successfully: ${filePath}`);
 });
 
+app.post('/api/scenario/narrate/delete', async (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.body;
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const filePath = path.join(sceneDirPath, 'narration.mp3');
+
+    if (fs.existsSync(filePath)) {
+        fs.unlink(filePath, (err) => {
+            if (err) {
+                logger.error('Failed to delete the audio file', err);
+                return res.status(500).send('Failed to delete the audio file');
+            }
+
+            logger.info('Audio file deleted successfully.');
+            res.status(200).send('Audio file deleted successfully');
+        });
+    } else {
+        logger.warn('Audio file not found');
+        res.status(404).send('Audio file not found');
+    }
+});
+
+app.get('/api/scenario/image/get', (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.query;
+
+    if (!story_id || !chapter_id || !scene_id) {
+        return res.status(400).json({
+            status: 'error',
+            message: 'Missing required parameters: story_id, chapter_id, scene_id'
+        });
+    }
+
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const imagePath = path.join(sceneDirPath, 'image.png');
+
+    if (fs.existsSync(imagePath)) {
+        // Send the path as a URL or a relative path depending on your server setup
+        const imageUrl = `/story_archive/Story_${story_id}/Chapter_${chapter_id}/Scene_${scene_id}/image.png`;
+        console.log(imageUrl)
+        res.json({ imageUrl: imageUrl });
+    } else {
+        res.status(404).json({
+            status: 'error',
+            message: 'Image not found.'
+        });
+    }
+});
+
+app.post('/api/scenario/image/free/create', async (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.body;
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
+    if (!fs.existsSync(contentFilePath)) {
+        logger.error('Content file does not exist');
+        return res.status(404).send('Content file not found');
+    }
+    const query = fs.readFileSync(contentFilePath, 'utf8');
+    const apiKey = process.env.GOOGLE_API_KEY;
+    const cseId = process.env.CSE_ID;
+    const imageUrls = await searchGoogleImages(apiKey, cseId, query);
+
+    console.log(imageUrls);
+
+    if (imageUrls.length > 0) {
+        const imageUrl = imageUrls[0];
+        const imageResponse = await axios({
+            method: 'GET',
+            url: imageUrl,
+            responseType: 'stream'
+        });
+        const fileName = `image.png`;
+        const localImagePath = path.join(sceneDirPath, fileName);
+        const writer = fs.createWriteStream(localImagePath);
+        imageResponse.data.pipe(writer);
+        await new Promise((resolve, reject) => {
+            writer.on('finish', resolve);
+            writer.on('error', (err) => {
+                console.error('Error saving image:', err);
+                reject(err);
+            });
+        });
+
+        logger.info('image.png is created.');
+        res.status(200).send('image.png is created');
+    } else {
+        logger.warn(`Google unable to find image in reference to prompt.`);
+        res.status(404).send('Google unable to find image in reference to prompt. Please use AI or local image instead.');
+    }
+});
+
+app.post('/api/scenario/image/premium/create', async (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.body;
+
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
+
+    if (!fs.existsSync(contentFilePath)) {
+        logger.error('Content file does not exist');
+        return res.status(404).send('Content file not found');
+    }
+
+    const query = fs.readFileSync(contentFilePath, 'utf8');
+    const scene_model = "dall-e-3"; // Replace with the appropriate model name
+    const scene_size = "1024x1024"; // Adjust the size according to your needs
+
+    try {
+        const imageResponse = await openai.images.generate({
+            model: scene_model,
+            prompt: "Imagine this is a kid story from a book. Create an Image Story Scene for this Scenario: " + query,
+            n: 1,
+            size: scene_size,
+        });
+
+        console.log('API Response:', imageResponse);
+
+        const imageUrl = imageResponse.data[0].url;
+
+        if (imageUrl) {
+            const image = await axios({
+                method: 'GET',
+                url: imageUrl,
+                responseType: 'stream'
+            });
+
+            const fileName = `image.png`;
+            if (!fs.existsSync(sceneDirPath)) {
+                fs.mkdirSync(sceneDirPath, { recursive: true });
+                logger.info(`Directory '${sceneDirPath}' created.`);
+            }
+            const localImagePath = path.join(sceneDirPath, fileName);
+            const writer = fs.createWriteStream(localImagePath);
+            image.data.pipe(writer);
+
+            await new Promise((resolve, reject) => {
+                writer.on('finish', resolve);
+                writer.on('error', (err) => {
+                    console.error('Error saving image:', err);
+                    reject(err);
+                });
+            });
+
+            logger.info(`${fileName} is created.`);
+            res.status(200).send(`${fileName} is created`);
+        } else {
+            logger.error(`No image URL found for ${query}`);
+            res.status(404).send('No image URL found.');
+        }
+    } catch (error) {
+        logger.error('Failed to create image due to an error:', error);
+        res.status(500).send('Failed to create image');
+    }
+});
 
 
 

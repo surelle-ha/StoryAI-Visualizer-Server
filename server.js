@@ -762,6 +762,34 @@ app.get('/api/scenario/image/public/fetch', (req, res) => {
     });
 });
 
+app.post('/api/scenario/complete/fetch', async (req, res) => {
+    const { story_id, chapter_id } = req.body;
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`);
+    
+    try {
+        const scenes = fs.readdirSync(sceneDirPath);
+        const results = {};
+
+        for (const scene of scenes) {
+            const scenePath = path.join(sceneDirPath, scene);
+            const files = fs.readdirSync(scenePath);
+            console.log(files)
+
+            if (files.includes('narration.mp3') && files.includes('image.png') && files.includes('content.txt')) {
+                results[scene] = {
+                    sound: `${base}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'narration.mp3')}`,
+                    image: `${base}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'image.png')}`,
+                    context: `${base}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'content.txt')}`
+                };
+            }
+        }
+
+        res.json(results);
+    } catch (err) {
+        res.status(500).json({ error: "Failed to read scenes: " + err.message });
+    }
+});
+
 app.listen(port, () => {
     //console.clear();
     console.log(`AI STORY PROCESSOR SERVER RUNNING @ [ ${base}:${port} ]`);

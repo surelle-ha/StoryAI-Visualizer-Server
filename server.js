@@ -92,7 +92,7 @@ app.post('/api/story/initialize', async(req, res) => { /* CHECKED */
             const access = await AccessModel.findOneAndUpdate(
                 { access_id: access_id },
                 { 
-                    $setOnInsert: { points: 0, created: new Date() },
+                    $setOnInsert: { points: 100, created: new Date() },
                     $set: { updated: new Date() }
                 },
                 { new: true, upsert: true }
@@ -100,7 +100,7 @@ app.post('/api/story/initialize', async(req, res) => { /* CHECKED */
 
             // Upsert story record
             story = await StoryModel.findOneAndUpdate(
-                { story_id: story_id, chapter_id: chapter_id, access_id: access_id },
+                { story_id: story_id, chapter_id: chapter_id, access_id: access_id, isPublished: false },
                 { 
                     $setOnInsert: { created: new Date() },
                     $set: { updated: new Date() }
@@ -115,6 +115,12 @@ app.post('/api/story/initialize', async(req, res) => { /* CHECKED */
                 message: 'Authorization Failed'
             });
         }
+
+        const accessing_user = await AccessModel.findOne(
+            {
+                access_id: access_id,
+            }
+        );
         
         const storyArchiveDir = path.join(__dirname, 'story_archive');
         if (!fs.existsSync(storyArchiveDir)) {
@@ -141,6 +147,7 @@ app.post('/api/story/initialize', async(req, res) => { /* CHECKED */
         return res.status(200).json({
             status: 'success',
             message: 'Initialization completed',
+            access: accessing_user,
             requestTime: startTime.toISOString(),
             responseSpeed: `${duration} ms`,
             userAgent: userAgent,
@@ -630,6 +637,27 @@ app.get('/api/scenario/image/get', (req, res) => { /* CHECKED */
             status: 'error',
             message: 'Image not found.'
         });
+    }
+});
+
+app.post('/api/scenario/image/delete', async (req, res) => {  /* CHECKED */
+    const { story_id, chapter_id, scene_id } = req.body;
+    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const filePath = path.join(sceneDirPath, 'image.png');
+
+    if (fs.existsSync(filePath)) {
+        fs.unlink(filePath, (err) => {
+            if (err) {
+                logger.error('Failed to delete the image file', err);
+                return res.status(500).send('Failed to delete the image file');
+            }
+
+            logger.info('Image file deleted successfully.');
+            res.status(200).send('Image file deleted successfully');
+        });
+    } else {
+        logger.warn('Image file not found');
+        res.status(404).send('Image file not found');
     }
 });
 

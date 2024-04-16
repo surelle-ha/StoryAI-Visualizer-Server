@@ -704,7 +704,7 @@ app.post('/api/scenario/image/free/create', async (req, res) => {   /* CHECKED *
 });
 
 app.post('/api/scenario/image/premium/create', async (req, res) => { /* CHECKED */
-    const { story_id, chapter_id, scene_id } = req.body;
+    const { story_id, chapter_id, scene_id, custom_prompt, engine, size } = req.body;
 
     const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
@@ -715,13 +715,13 @@ app.post('/api/scenario/image/premium/create', async (req, res) => { /* CHECKED 
     }
 
     const query = fs.readFileSync(contentFilePath, 'utf8');
-    const scene_model = "dall-e-3"; // Replace with the appropriate model name
-    const scene_size = "1024x1024"; // Adjust the size according to your needs
+    const scene_model = engine; 
+    const scene_size = size; 
 
     try {
         const imageResponse = await openai.images.generate({
             model: scene_model,
-            prompt: "Imagine this is a kid story from a book. Create an Image Story Scene for this Scenario: " + query,
+            prompt: `${custom_prompt}`,
             n: 1,
             size: scene_size,
         });

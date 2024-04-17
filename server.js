@@ -1,25 +1,25 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const fsp = require('fs').promises;
 const fs = require('fs');
-const { createWriteStream, existsSync, mkdirSync } = require('fs');
+const { existsSync, mkdirSync } = require('fs');
 const PlayHTAPI = require('playht');
 const googleTTS = require('google-tts-api');
 const axios = require('axios');
 const path = require('path');
 const OpenAI = require("openai");
-const mongoose = require('mongoose');
-const connectDB = require('./config/Database');
-
-require('dotenv').config();
+const connectDB = require('./config/mongodb');
+const router = require('./routes/routes');
 
 connectDB();
-const AccessModel = require('./model/Access')
-const StoryModel = require('./model/Story')
+const AccessModel = require('./models/Access')
+const StoryModel = require('./models/Story')
+const PromptModel = require('./models/Prompt')
 
-// Composaables
-const logger = require('./composables/logger');
-const searchGoogleImages = require('./composables/searchGoogleImages');
+// Helpers
+const logger = require('./helpers/logger');
+const getUID = require('./helpers/getUID')
+const searchGoogleImages = require('./helpers/searchGoogleImages');
 
 // OpenAI API Key
 const openai = new OpenAI({
@@ -34,39 +34,24 @@ PlayHTAPI.init({
 
 // Environment Variables
 const app = express();
-const name = process.env.SERVER_NAME;
-const base = process.env.SERVER_BASE;
-const port = process.env.SERVER_PORT;
-const ver = process.env.SERVER_VERS;
-const env = process.env.SERVER_ENVN;
+const { ENV_NAME, ENV_BASE, ENV_PORT, ENV_VER, ENV_TYPE } = require('./config/environment');
 
 // Server Config
 app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const imagesFilesDir = path.join(__dirname, 'public_images');
+const rootStorage = path.join(__dirname, 'storage');
+
+const imagesFilesDir = path.join(rootStorage, 'public_images');
 if (!existsSync(imagesFilesDir)) { mkdirSync(imagesFilesDir); }
 app.use('/public_images', express.static(imagesFilesDir));
 
-const storyAssetDir = path.join(__dirname, 'story_archive');
+const storyAssetDir = path.join(rootStorage, 'story_archive');
 if (!existsSync(storyAssetDir)) { mkdirSync(storyAssetDir); }
 app.use('/story_archive', express.static(storyAssetDir));
 
-app.get('/', (req, res) => {
-    logger.info(`API ACCESSED`);
-    return res.status(200).json(
-        {
-            status: 'success', 
-            app: name,
-            message: 'Welcome to StoryAI Visualizer',
-            base: base,
-            port: port,
-            version: ver,
-            environment: env,
-        }
-    );
-});
+app.use('/', router);
 
 app.post('/api/story/initialize', async(req, res) => { /* CHECKED */
     const { access_id, story_id, chapter_id } = req.body; // Changed from req.query to req.body
@@ -122,7 +107,7 @@ app.post('/api/story/initialize', async(req, res) => { /* CHECKED */
             }
         );
         
-        const storyArchiveDir = path.join(__dirname, 'story_archive');
+        const storyArchiveDir = path.join(rootStorage, 'story_archive');
         if (!fs.existsSync(storyArchiveDir)) {
             fs.mkdirSync(storyArchiveDir);
             logger.info(`Directory 'story_archive' Initialized.`);
@@ -188,7 +173,7 @@ app.post('/api/scenario/initialize', async (req, res) => { /* CHECKED */
     }
 
     try {
-        const storyArchiveDir = path.join(__dirname, 'story_archive');
+        const storyArchiveDir = path.join(rootStorage, 'story_archive');
         if (!fs.existsSync(storyArchiveDir)) {
             fs.mkdirSync(storyArchiveDir);
             logger.info(`Directory 'story_archive' Initialized.`);
@@ -264,7 +249,7 @@ app.get('/api/scenario/getCount', async (req, res) => { /* CHECKED */
     }
 
     try {
-        const storyDir = path.join(__dirname, 'story_archive', `Story_${story_id}`);
+        const storyDir = path.join(rootStorage, 'story_archive', `Story_${story_id}`);
         const chapterDir = path.join(storyDir, `Chapter_${chapter_id}`);
 
         if (fs.existsSync(chapterDir)) {
@@ -298,7 +283,7 @@ app.get('/api/scenario/getCount', async (req, res) => { /* CHECKED */
 app.delete('/api/scenario/delete', async(req, res) => { /* CHECKED */
     const { story_id, chapter_id, scene_id } = req.body;
     
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
 
     try {
         if (fs.existsSync(sceneDirPath)) {
@@ -328,7 +313,7 @@ app.delete('/api/scenario/delete', async(req, res) => { /* CHECKED */
 app.post('/api/scenario/content/save', async (req, res) => { /* CHECKED */
     const { story_id, chapter_id, scene_id, scene_content } = req.body;
 
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'content.txt');
 
     try {
@@ -359,7 +344,7 @@ app.post('/api/scenario/content/save', async (req, res) => { /* CHECKED */
 app.post('/api/scenario/content/fetch', async (req, res) => { /* CHECKED */
     const { story_id, chapter_id, scene_id } = req.body;
 
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'content.txt');
 
     try {
@@ -393,7 +378,7 @@ app.post('/api/scenario/content/fetch', async (req, res) => { /* CHECKED */
 app.post('/api/scenario/prompt/save', async (req, res) => { /* CHECKED */
     const { story_id, chapter_id, scene_id, scene_prompt } = req.body;
 
-    const promptDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const promptDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const promptFilePath = path.join(promptDirPath, 'prompt.txt');
 
     try {
@@ -424,7 +409,7 @@ app.post('/api/scenario/prompt/save', async (req, res) => { /* CHECKED */
 app.post('/api/scenario/prompt/fetch', async (req, res) => { /* CHECKED */
     const { story_id, chapter_id, scene_id } = req.body;
 
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
 
     try {
@@ -459,7 +444,7 @@ app.post('/api/scenario/narrate/free/create', async (req, res) => { /* CHECKED *
     const { story_id, chapter_id, scene_id } = req.body;
 
     // Define the directory path for the scene
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
 
     // Define the path for the content file and check if it exists
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
@@ -514,7 +499,7 @@ app.post('/api/scenario/narrate/free/create', async (req, res) => { /* CHECKED *
 
 app.get('/api/scene/narrate/fetch', (req, res) => { /* CHECKED */
     const { story_id, chapter_id, scene_id } = req.query;
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const audioFilePath = path.join(sceneDirPath, 'narration.mp3');
 
     if (fs.existsSync(audioFilePath)) {
@@ -546,7 +531,7 @@ app.get('/api/scenario/narrate/premium/voices', async (req, res) => { /* CHECKED
 
 app.post('/api/scenario/narrate/premium/create', async (req, res) => {  /* CHECKED */
     const { story_id, chapter_id, scene_id, voiceId } = req.body;
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
 
     if (!fs.existsSync(contentFilePath)) {
@@ -595,7 +580,7 @@ app.post('/api/scenario/narrate/premium/create', async (req, res) => {  /* CHECK
 
 app.post('/api/scenario/narrate/delete', async (req, res) => {  /* CHECKED */
     const { story_id, chapter_id, scene_id } = req.body;
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const filePath = path.join(sceneDirPath, 'narration.mp3');
 
     if (fs.existsSync(filePath)) {
@@ -624,7 +609,7 @@ app.get('/api/scenario/image/get', (req, res) => { /* CHECKED */
         });
     }
 
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const imagePath = path.join(sceneDirPath, 'image.png');
 
     if (fs.existsSync(imagePath)) {
@@ -642,7 +627,7 @@ app.get('/api/scenario/image/get', (req, res) => { /* CHECKED */
 
 app.post('/api/scenario/image/delete', async (req, res) => {  /* CHECKED */
     const { story_id, chapter_id, scene_id } = req.body;
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const filePath = path.join(sceneDirPath, 'image.png');
 
     if (fs.existsSync(filePath)) {
@@ -663,7 +648,7 @@ app.post('/api/scenario/image/delete', async (req, res) => {  /* CHECKED */
 
 app.post('/api/scenario/image/free/create', async (req, res) => {   /* CHECKED */
     const { story_id, chapter_id, scene_id } = req.body;
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
     if (!fs.existsSync(contentFilePath)) {
         logger.error('Content file does not exist');
@@ -704,9 +689,9 @@ app.post('/api/scenario/image/free/create', async (req, res) => {   /* CHECKED *
 });
 
 app.post('/api/scenario/image/premium/create', async (req, res) => { /* CHECKED */
-    const { story_id, chapter_id, scene_id, custom_prompt, engine, size } = req.body;
+    const { access_id, story_id, chapter_id, scene_id, custom_prompt, engine, size } = req.body;
 
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
 
     if (!fs.existsSync(contentFilePath)) {
@@ -717,6 +702,23 @@ app.post('/api/scenario/image/premium/create', async (req, res) => { /* CHECKED 
     const query = fs.readFileSync(contentFilePath, 'utf8');
     const scene_model = engine; 
     const scene_size = size; 
+
+    const prompt_id = getUID();
+    // Using create method for simplicity and proper promise handling
+    try {
+        const newPrompt = await PromptModel.create({
+            prompt_id,
+            story_id,
+            chapter_id,
+            access_id,
+            content: custom_prompt,
+            updated: new Date()
+        });
+        console.log('Document inserted successfully', newPrompt);
+    } catch (err) {
+        console.error('Error inserting document', err);
+        return res.status(500).send('Error inserting document');
+    }
 
     try {
         const imageResponse = await openai.images.generate({
@@ -752,7 +754,7 @@ app.post('/api/scenario/image/premium/create', async (req, res) => { /* CHECKED 
                     
                     // Now copy the file to public_images directory
                     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-                    const publicImagePath = path.join(__dirname, 'public_images', `image_${timestamp}.png`);
+                    const publicImagePath = path.join(rootStorage, 'public_images', `image_${timestamp}.png`);
                     fs.copyFile(localImagePath, publicImagePath, (err) => {
                         if (err) {
                             logger.error('Error copying image to public directory:', err);
@@ -785,14 +787,14 @@ app.get('/api/scenario/image/public/fetch', (req, res) => {
             return res.status(500).send('Error reading image directory');
         }
         const imageUrls = files.filter(file => file.endsWith('.png'))
-                               .map(file => `${base}/public_images/${file}`);
+                               .map(file => `${ENV_BASE}/public_images/${file}`);
         res.json(imageUrls);
     });
 });
 
 app.post('/api/scenario/complete/fetch', async (req, res) => {
     const { story_id, chapter_id } = req.body;
-    const sceneDirPath = path.join(__dirname, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`);
+    const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`);
     
     try {
         const scenes = fs.readdirSync(sceneDirPath);
@@ -805,9 +807,9 @@ app.post('/api/scenario/complete/fetch', async (req, res) => {
 
             if (files.includes('narration.mp3') && files.includes('image.png') && files.includes('content.txt')) {
                 results[scene] = {
-                    sound: `${base}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'narration.mp3')}`,
-                    image: `${base}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'image.png')}`,
-                    context: `${base}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'content.txt')}`
+                    sound: `${ENV_BASE}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'narration.mp3')}`,
+                    image: `${ENV_BASE}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'image.png')}`,
+                    context: `${ENV_BASE}/story_archive/${path.join('Story_' + story_id, 'Chapter_' + chapter_id, scene, 'content.txt')}`
                 };
             }
         }
@@ -818,7 +820,7 @@ app.post('/api/scenario/complete/fetch', async (req, res) => {
     }
 });
 
-app.listen(port, () => {
+app.listen(ENV_PORT, () => {
     //console.clear();
-    console.log(`AI STORY PROCESSOR SERVER RUNNING @ [ ${base}:${port} ]`);
+    console.log(`AI STORY PROCESSOR SERVER RUNNING @ [ ${ENV_BASE}:${ENV_PORT} ]`);
 });

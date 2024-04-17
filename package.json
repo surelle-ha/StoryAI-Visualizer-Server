@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "model": "type  nul > \"./models/%npm_config_name%.js\"",
+    "controller": "type  nul > \"./controllers/%npm_config_name%Controllers.js\"",
     "serve": "nodemon server.js",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",

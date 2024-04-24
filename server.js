@@ -20,6 +20,7 @@ const PromptModel = require('./models/Prompt')
 const logger = require('./helpers/logger');
 const getUID = require('./helpers/getUID')
 const searchGoogleImages = require('./helpers/searchGoogleImages');
+const Token = require('./helpers/Token');
 
 // OpenAI API Key
 const openai = new OpenAI({
@@ -77,7 +78,7 @@ app.post('/api/story/initialize', async(req, res) => { /* CHECKED */
             const access = await AccessModel.findOneAndUpdate(
                 { access_id: access_id },
                 { 
-                    $setOnInsert: { points: 100, created: new Date() },
+                    $setOnInsert: { points: 25, created: new Date() },
                     $set: { updated: new Date() }
                 },
                 { new: true, upsert: true }
@@ -314,6 +315,7 @@ app.post('/api/scenario/content/save', async (req, res) => { /* CHECKED */
     const { story_id, chapter_id, scene_id, scene_content } = req.body;
 
     const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
+    console.log(sceneDirPath)
     const contentFilePath = path.join(sceneDirPath, 'content.txt');
 
     try {
@@ -530,7 +532,13 @@ app.get('/api/scenario/narrate/premium/voices', async (req, res) => { /* CHECKED
 });
 
 app.post('/api/scenario/narrate/premium/create', async (req, res) => {  /* CHECKED */
-    const { story_id, chapter_id, scene_id, voiceId } = req.body;
+    const { access_id, story_id, chapter_id, scene_id, voiceId, rate } = req.body;
+    const toBeDeduct = rate; 
+    const tokenResult = await Token.deduct(access_id, toBeDeduct);
+    if(!tokenResult.success){
+        return res.status(401).json({message: tokenResult.message});
+    }
+
     const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
 
@@ -575,7 +583,7 @@ app.post('/api/scenario/narrate/premium/create', async (req, res) => {  /* CHECK
     });
 
     console.log(`Narration Generated for ${audio_file}.`);
-    res.status(200).send(`Narration generated successfully: ${filePath}`);
+    res.status(200).json(tokenResult);
 });
 
 app.post('/api/scenario/narrate/delete', async (req, res) => {  /* CHECKED */
@@ -689,7 +697,13 @@ app.post('/api/scenario/image/free/create', async (req, res) => {   /* CHECKED *
 });
 
 app.post('/api/scenario/image/premium/create', async (req, res) => { /* CHECKED */
-    const { access_id, story_id, chapter_id, scene_id, custom_prompt, engine, size } = req.body;
+    const { access_id, story_id, chapter_id, scene_id, custom_prompt, engine, size, rate } = req.body;
+
+    const toBeDeduct = rate; 
+    const tokenResult = await Token.deduct(access_id, toBeDeduct);
+    if(!tokenResult.success){
+        return res.status(401).json({message: tokenResult.message});
+    }
 
     const sceneDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`, `Scene_${scene_id}`);
     const contentFilePath = path.join(sceneDirPath, 'prompt.txt');
@@ -761,7 +775,7 @@ app.post('/api/scenario/image/premium/create', async (req, res) => { /* CHECKED 
                             res.status(500).send('Error copying image to public directory');
                         } else {
                             logger.info(`Image copied to public directory.`);
-                            res.status(200).send(`${fileName} is created and copied to public directory`);
+                            res.status(200).json(tokenResult);
                         }
                     });
                 });

@@ -9,5 +9,6 @@ router.get('/statistics/access/count', story_controller.get_user_count)
 router.get('/statistics/story/count', story_controller.get_story_count)
 router.get('/statistics/prompt/count', story_controller.get_prompt_count)
 router.post('/token/fund', token_controller.fund)
+router.post('/token/deduct', token_controller.deduct)
 
 module.exports = router;

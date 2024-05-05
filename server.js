@@ -8,6 +8,7 @@ const googleTTS = require('google-tts-api');
 const axios = require('axios');
 const path = require('path');
 const OpenAI = require("openai");
+const { exec, execSync } = require('child_process');
 const connectDB = require('./config/mongodb');
 const router = require('./routes/routes');
 
@@ -832,6 +833,62 @@ app.post('/api/scenario/complete/fetch', async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: "Failed to read scenes: " + err.message });
     }
+});
+
+app.post('/api/video/generate', async (req, res) => {
+    const { story_id, chapter_id } = req.body;
+    const chapterDirPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}`);
+
+    if (!fs.existsSync(chapterDirPath)) {
+        return res.status(404).json({ error: "Chapter directory not found: " + chapterDirPath });
+    }
+
+    const directories = fs.readdirSync(chapterDirPath);
+    const scenes = directories.filter(dir => dir.startsWith('Scene_'));
+    let ffmpegInputs = '';
+    let filterComplexScale = '';
+    let filterComplexConcat = '';
+    let totalStreams = 0;
+
+    for (const scene of scenes) {
+        const sceneDirPath = path.join(chapterDirPath, scene);
+        const imagePath = path.join(sceneDirPath, 'image.png');
+        const audioPath = path.join(sceneDirPath, 'narration.mp3');
+
+        if (!fs.existsSync(imagePath) || !fs.existsSync(audioPath)) {
+            console.error(`Missing files for scene: ${scene}`);
+            return res.status(400).json({ error: `Missing files for scene: ${scene}` });
+        }
+
+        const duration = execSync(`ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${audioPath}"`).toString().trim();
+        ffmpegInputs += `-t ${duration} -i "${imagePath}" -i "${audioPath}" `;
+        filterComplexScale += `[${totalStreams}:v]scale=1024:1024[v${totalStreams}];`;
+        filterComplexConcat += `[v${totalStreams}][${totalStreams+1}:a]`;
+        totalStreams += 2; // Increment for each video and audio stream
+    }
+
+    filterComplexConcat += `concat=n=${scenes.length}:v=1:a=1[v][a]`;
+
+    if (totalStreams === 0) {
+        return res.status(500).json({ error: "No valid scenes were found to generate the video." });
+    }
+
+    const outputPath = path.join(rootStorage, 'story_archive', `Story_${story_id}`, `Chapter_${chapter_id}.mp4`);
+    const ffmpegCommand = `ffmpeg ${ffmpegInputs} -filter_complex "${filterComplexScale}${filterComplexConcat}" -map "[v]" -map "[a]" -c:v libx264 -c:a aac -b:a 192k -shortest -y "${outputPath}"`;
+
+    console.log(`Executing command: ${ffmpegCommand}`);
+
+    exec(ffmpegCommand, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`Error generating video: ${error.message}`);
+            return res.status(500).json({ error: "Video generation failed: " + error.message });
+        }
+        console.log('Video generated successfully');
+
+        // Send the URL of the generated video
+        const videoUrl = `${req.protocol}://${req.get('host')}/story_archive/Story_${story_id}/Chapter_${chapter_id}.mp4`;
+        res.json({ message: 'Video generated successfully', url: videoUrl });
+    });
 });
 
 app.listen(ENV_PORT, () => {

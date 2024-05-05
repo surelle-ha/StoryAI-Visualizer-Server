@@ -6257,3 +6257,784 @@
 {"level":30,"time":1714788187007,"pid":151596,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
 {"level":30,"time":1714788680882,"pid":151596,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
 {"level":30,"time":1714788680925,"pid":151596,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714881210223,"pid":20692,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714881242266,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714881242417,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714881242924,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881242944,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881243006,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881243022,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881243066,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881243069,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881243091,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881243200,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881243250,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881243299,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881243302,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881243327,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881243333,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881243337,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881243378,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881243405,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881247087,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881247098,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881247124,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881247135,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881247204,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881247210,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881247253,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881247277,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881247305,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881247369,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881247377,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881247405,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881247447,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881247504,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881247515,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881247532,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881367592,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881367613,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881367627,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881367633,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881367651,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881367656,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881367660,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881367672,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881367676,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881367686,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881367695,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881367699,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881367720,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881367722,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881367735,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881367737,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881373780,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714881373916,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714881552135,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881552143,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881552170,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881552174,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881552221,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881552241,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881552262,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881552264,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881552267,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881552269,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881552284,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881552314,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881552347,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881552352,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881552366,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881552370,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881558455,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714881558572,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714881558849,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881558858,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881558867,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881558877,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881558892,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881558904,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881558913,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881558917,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881558919,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881558923,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881558925,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881558928,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881558930,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881558933,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881558936,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881558940,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881636434,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881636440,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881636453,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881636481,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881636487,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881636505,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881636521,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881636533,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881636552,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881636554,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881636577,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881636600,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881636604,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881636609,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881636624,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881636630,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881859244,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714881859383,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714881859642,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881859655,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881859661,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881859674,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881859684,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881859688,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881859709,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881859716,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881859722,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881859725,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881859738,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881859743,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881859750,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881859758,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881859785,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881859787,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881897348,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881897359,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881897425,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881897441,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881897473,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881897496,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881897523,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881897529,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881897531,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881897535,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881897537,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881897540,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881897542,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881897547,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881897552,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881897557,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881914939,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881914951,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881914985,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881914999,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881915070,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881915091,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881915123,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881915130,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881915135,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881915139,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881915145,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881915151,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881915154,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881915163,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881915165,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881915172,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881937541,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881937545,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881937628,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881937669,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881937714,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881937753,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881937759,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881937764,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881937769,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881937775,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881937790,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881937792,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881937797,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881937799,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881937803,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881937809,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881953061,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714881953189,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714881953461,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881953479,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881953481,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881953490,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881953503,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881953509,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881953529,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881953534,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881953554,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881953557,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881953560,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881953566,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881953575,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881953584,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881953598,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881953601,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881960498,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714881961043,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":50,"time":1714881961249,"pid":20692,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714881961256,"pid":20692,"hostname":"Surelle","msg":"Content file for Scene_1 does not exist."}
+{"level":40,"time":1714881961259,"pid":20692,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":30,"time":1714881979526,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714881979657,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714881979929,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881979945,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881979947,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881979951,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881979979,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881979982,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881979994,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881980009,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881980019,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881980034,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881980037,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881980040,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881980046,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881980058,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881980069,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881980074,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714881997208,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714881997215,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714881997221,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714881997232,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714881997260,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714881997265,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714881997274,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714881997278,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714881997302,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714881997304,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714881997310,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714881997315,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714881997327,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714881997332,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714881997351,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714881997359,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714882003600,"pid":20692,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714882003711,"pid":20692,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714882003963,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714882003980,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714882003995,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714882004008,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714882004014,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714882004031,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714882004036,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714882004050,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714882004054,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714882004064,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714882004069,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714882004076,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714882004080,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714882004088,"pid":20692,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714882004094,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714882004099,"pid":20692,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714882576855,"pid":10192,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714882600449,"pid":10540,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714882606720,"pid":8144,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714882920779,"pid":13924,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714883084103,"pid":16540,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714883148491,"pid":25548,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714883272682,"pid":3316,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714883788098,"pid":24336,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714884079744,"pid":23836,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714884313715,"pid":18944,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714884423235,"pid":17732,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714884556323,"pid":23128,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714884784602,"pid":26148,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714885180449,"pid":11560,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714885257884,"pid":19124,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714885279049,"pid":21988,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714885305382,"pid":24944,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714885618047,"pid":8544,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714886543936,"pid":23684,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714887169197,"pid":22396,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714887591082,"pid":21420,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714888129940,"pid":2952,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714888545765,"pid":25112,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714888597296,"pid":14776,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714888692295,"pid":14544,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714888894224,"pid":13304,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714889019660,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889019780,"pid":13304,"hostname":"Surelle","msg":"Directory 'Chapter_2' Initialized."}
+{"level":30,"time":1714889019780,"pid":13304,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714889027145,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889027256,"pid":13304,"hostname":"Surelle","msg":"Directory 'Chapter_3' Initialized."}
+{"level":30,"time":1714889027256,"pid":13304,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714889037304,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889037418,"pid":13304,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714889039238,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889039239,"pid":13304,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer-Server\\storage\\story_archive\\Story_1\\Chapter_2\\Scene_1' created for the next scene."}
+{"level":30,"time":1714889039239,"pid":13304,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":50,"time":1714889039258,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889039261,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_1 does not exist."}
+{"level":40,"time":1714889039263,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":30,"time":1714889062704,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889062815,"pid":13304,"hostname":"Surelle","msg":"Directory 'Story_2' Initialized."}
+{"level":30,"time":1714889062816,"pid":13304,"hostname":"Surelle","msg":"Directory 'Chapter_1' Initialized."}
+{"level":30,"time":1714889062816,"pid":13304,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714889085583,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889085584,"pid":13304,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer-Server\\storage\\story_archive\\Story_2\\Chapter_1\\Scene_1' created for the next scene."}
+{"level":30,"time":1714889085584,"pid":13304,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":50,"time":1714889085600,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889085604,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_1 does not exist."}
+{"level":40,"time":1714889085604,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":30,"time":1714889093193,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":50,"time":1714889093207,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093220,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093225,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889093231,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1714889093236,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1714889093237,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":50,"time":1714889093242,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093253,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_4 does not exist."}
+{"level":40,"time":1714889093257,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_4 does not exist."}
+{"level":50,"time":1714889093258,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093265,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_5 does not exist."}
+{"level":40,"time":1714889093271,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_5 does not exist."}
+{"level":50,"time":1714889093272,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093273,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_6 does not exist."}
+{"level":40,"time":1714889093274,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_6 does not exist."}
+{"level":50,"time":1714889093275,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093284,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_7 does not exist."}
+{"level":40,"time":1714889093285,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_7 does not exist."}
+{"level":50,"time":1714889093286,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093287,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_8 does not exist."}
+{"level":30,"time":1714889093288,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1714889093290,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_8 does not exist."}
+{"level":30,"time":1714889093291,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":50,"time":1714889093292,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093292,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":50,"time":1714889093293,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093294,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":40,"time":1714889093295,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1714889093298,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":40,"time":1714889093301,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":50,"time":1714889093301,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093302,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1714889093302,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":40,"time":1714889093305,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_4 does not exist."}
+{"level":50,"time":1714889093306,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093307,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_4 does not exist."}
+{"level":50,"time":1714889093308,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093309,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_5 does not exist."}
+{"level":40,"time":1714889093313,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_5 does not exist."}
+{"level":50,"time":1714889093313,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093315,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_6 does not exist."}
+{"level":40,"time":1714889093316,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_6 does not exist."}
+{"level":50,"time":1714889093317,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889093318,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_7 does not exist."}
+{"level":40,"time":1714889093320,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_7 does not exist."}
+{"level":40,"time":1714889093320,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_8 does not exist."}
+{"level":40,"time":1714889093320,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_8 does not exist."}
+{"level":30,"time":1714889093321,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1714889093322,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":40,"time":1714889093323,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":40,"time":1714889093324,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1714889093324,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":40,"time":1714889093325,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1714889093325,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":40,"time":1714889093326,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_4 does not exist."}
+{"level":40,"time":1714889093326,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_4 does not exist."}
+{"level":40,"time":1714889093327,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_5 does not exist."}
+{"level":40,"time":1714889093327,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_5 does not exist."}
+{"level":40,"time":1714889093327,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_6 does not exist."}
+{"level":40,"time":1714889093329,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_6 does not exist."}
+{"level":40,"time":1714889093331,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_7 does not exist."}
+{"level":40,"time":1714889093332,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_7 does not exist."}
+{"level":40,"time":1714889093332,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_8 does not exist."}
+{"level":40,"time":1714889093333,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_8 does not exist."}
+{"level":30,"time":1714889093333,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1714889093334,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":30,"time":1714889093335,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":40,"time":1714889093335,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_1 does not exist."}
+{"level":40,"time":1714889093336,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":50,"time":1714889093337,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093340,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093348,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093349,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093350,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093355,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093356,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093357,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093361,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093363,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093368,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889093374,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889097792,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":30,"time":1714889097801,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889097802,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889097803,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889097805,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889097807,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889097809,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097813,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1714889097814,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":50,"time":1714889097815,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097818,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1714889097823,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":40,"time":1714889097826,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_4 does not exist."}
+{"level":50,"time":1714889097827,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097832,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_4 does not exist."}
+{"level":40,"time":1714889097833,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_5 does not exist."}
+{"level":50,"time":1714889097836,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097839,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_5 does not exist."}
+{"level":50,"time":1714889097844,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097846,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_6 does not exist."}
+{"level":40,"time":1714889097859,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_6 does not exist."}
+{"level":40,"time":1714889097863,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_7 does not exist."}
+{"level":50,"time":1714889097864,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097867,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_7 does not exist."}
+{"level":50,"time":1714889097868,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097871,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_8 does not exist."}
+{"level":40,"time":1714889097877,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_8 does not exist."}
+{"level":30,"time":1714889097879,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889097885,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889097887,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097890,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":50,"time":1714889097890,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097896,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":50,"time":1714889097897,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097898,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1714889097899,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":40,"time":1714889097900,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_4 does not exist."}
+{"level":50,"time":1714889097903,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097904,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_4 does not exist."}
+{"level":40,"time":1714889097904,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_5 does not exist."}
+{"level":50,"time":1714889097905,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097908,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_5 does not exist."}
+{"level":50,"time":1714889097909,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097909,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_6 does not exist."}
+{"level":40,"time":1714889097910,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_6 does not exist."}
+{"level":50,"time":1714889097910,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097915,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_7 does not exist."}
+{"level":40,"time":1714889097917,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_7 does not exist."}
+{"level":50,"time":1714889097917,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889097917,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_8 does not exist."}
+{"level":40,"time":1714889097918,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_8 does not exist."}
+{"level":30,"time":1714889097923,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889097924,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":40,"time":1714889097924,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1714889097925,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":40,"time":1714889097925,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_3 does not exist."}
+{"level":40,"time":1714889097925,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_3 does not exist."}
+{"level":40,"time":1714889097927,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_4 does not exist."}
+{"level":40,"time":1714889097929,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_4 does not exist."}
+{"level":40,"time":1714889097929,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_5 does not exist."}
+{"level":40,"time":1714889097930,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_5 does not exist."}
+{"level":40,"time":1714889097932,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_6 does not exist."}
+{"level":40,"time":1714889097933,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_6 does not exist."}
+{"level":40,"time":1714889097933,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_7 does not exist."}
+{"level":40,"time":1714889097934,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_7 does not exist."}
+{"level":40,"time":1714889097935,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_8 does not exist."}
+{"level":40,"time":1714889097935,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_8 does not exist."}
+{"level":30,"time":1714889097938,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889097938,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889097939,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889097940,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889097941,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097946,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097950,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097951,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097952,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097954,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097955,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097960,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097962,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097966,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889097973,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889188245,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889188246,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889188249,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889208613,"pid":13304,"hostname":"Surelle","msg":"Failed to create image due to an error:"}
+{"level":30,"time":1714889270720,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 saved successfully."}
+{"level":50,"time":1714889270728,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889270729,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889270731,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889272926,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889272928,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889272930,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889304426,"pid":13304,"hostname":"Surelle","msg":"image.png is created."}
+{"level":30,"time":1714889304431,"pid":13304,"hostname":"Surelle","msg":"Image copied to public directory."}
+{"level":50,"time":1714889304444,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889304446,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889304447,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889306380,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889306381,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889306382,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889368409,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889368409,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889376201,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889376202,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889421848,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889421849,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889627792,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889627793,"pid":13304,"hostname":"Surelle","msg":"Directory 'C:\\Users\\0110h\\Desktop\\StoryAI-Visualizer-Server\\storage\\story_archive\\Story_2\\Chapter_1\\Scene_2' created for the next scene."}
+{"level":30,"time":1714889627793,"pid":13304,"hostname":"Surelle","msg":"Scene initialization completed"}
+{"level":50,"time":1714889627810,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":40,"time":1714889627812,"pid":13304,"hostname":"Surelle","msg":"Content file for Scene_2 does not exist."}
+{"level":40,"time":1714889627812,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1714889634425,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 saved successfully."}
+{"level":50,"time":1714889634446,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889634447,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889634448,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889634450,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889634451,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889634452,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":40,"time":1714889634453,"pid":13304,"hostname":"Surelle","msg":"Prompt file for Scene_2 does not exist."}
+{"level":30,"time":1714889638840,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 saved successfully."}
+{"level":30,"time":1714889638850,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889638851,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889638857,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889638858,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889638858,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889638859,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":50,"time":1714889638862,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889642480,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889642483,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889642484,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889642484,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":50,"time":1714889642485,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":50,"time":1714889655280,"pid":13304,"hostname":"Surelle","msg":"Failed to create image due to an error:"}
+{"level":30,"time":1714889685418,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 saved successfully."}
+{"level":50,"time":1714889685434,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889685436,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889685438,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889685440,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889685441,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":50,"time":1714889704849,"pid":13304,"hostname":"Surelle","msg":"Failed to create image due to an error:"}
+{"level":30,"time":1714889707408,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889707409,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889707411,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":50,"time":1714889707411,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889707412,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714889734151,"pid":13304,"hostname":"Surelle","msg":"image.png is created."}
+{"level":30,"time":1714889734155,"pid":13304,"hostname":"Surelle","msg":"Image copied to public directory."}
+{"level":50,"time":1714889734172,"pid":13304,"hostname":"Surelle","msg":"Narration file does not exist"}
+{"level":30,"time":1714889734177,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889734178,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889734179,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889734186,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714889743399,"pid":13304,"hostname":"Surelle","msg":"Narration Generated for narration.mp3."}
+{"level":30,"time":1714889744419,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889744420,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889744422,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889744424,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714889770487,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889770487,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889770488,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889770489,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714889834925,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889834926,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889834926,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889834936,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714889837921,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889837923,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889837927,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889837929,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714889899647,"pid":13304,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714889899751,"pid":13304,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714889899841,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714889899842,"pid":13304,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714889899844,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714889899850,"pid":13304,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890043591,"pid":2388,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890053342,"pid":6536,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890090097,"pid":24592,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890103805,"pid":24592,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714890103913,"pid":24592,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714890104029,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890104030,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890104036,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890104039,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890104047,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714890104048,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714890104056,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714890104061,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714890104064,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714890104068,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714890104074,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714890104076,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714890104081,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714890104083,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714890104103,"pid":24592,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714890104106,"pid":24592,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714890117586,"pid":26044,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890144529,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890144531,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890144534,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890144536,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890144541,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714890144543,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714890144548,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714890144549,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714890144555,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714890144558,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714890144564,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714890144567,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714890144573,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714890144574,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714890144578,"pid":26044,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714890144578,"pid":26044,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714890168685,"pid":8188,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890173166,"pid":25380,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890429826,"pid":25380,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714890429934,"pid":25380,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714890430056,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890430058,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890430064,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890430067,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890430074,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714890430076,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714890430084,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714890430085,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714890430091,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714890430094,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714890430101,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714890430102,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714890430106,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714890430110,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714890430112,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714890430120,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714890441272,"pid":25380,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714890441376,"pid":25380,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714890441459,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890441464,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890441472,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890441473,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890475790,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890475794,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890475795,"pid":25380,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890475795,"pid":25380,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890571848,"pid":19388,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890604252,"pid":19388,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714890604397,"pid":19388,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714890604581,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890604583,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890604584,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714890604591,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714890604612,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714890604613,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714890604616,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714890604627,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714890604645,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714890604647,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890604657,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714890604660,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714890604669,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714890604706,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890604773,"pid":19388,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714890604806,"pid":19388,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714890738960,"pid":15100,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714890857616,"pid":15100,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714890857720,"pid":15100,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714890857835,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890857837,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890857843,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714890857845,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714890857852,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714890857853,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714890857860,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714890857865,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890857865,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714890857866,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714890857871,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714890857872,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890857874,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714890857878,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714890857882,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714890857883,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714890902959,"pid":15100,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714890903061,"pid":15100,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714890903146,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714890903150,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714890903155,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714890903157,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714890903162,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714890903163,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714890903165,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714890903170,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714890903174,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714890903176,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714890903180,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714890903181,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714890903183,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714890903187,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714890903188,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714890903193,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714891177247,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714891177254,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714891177256,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714891177260,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714891177262,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714891177263,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714891177268,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714891177273,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714891177281,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714891177283,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714891177291,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714891177297,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714891177308,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714891177312,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714891177317,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714891177319,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714891177595,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714891177597,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714891177602,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714891177604,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714891177610,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714891177611,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714891177617,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714891177620,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714891177625,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714891177628,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714891177632,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714891177637,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714891177644,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714891177644,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714891177648,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714891177651,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714891326171,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714891326172,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714891326172,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714891326173,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714891326181,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714891326183,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714891326190,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714891326191,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714891326198,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714891326200,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714891326211,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714891326213,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714891326220,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714891326222,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714891326227,"pid":15100,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714891326228,"pid":15100,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714891449347,"pid":17476,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714891506963,"pid":25576,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714891593256,"pid":26948,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714891653026,"pid":9908,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714891656341,"pid":27116,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714891673804,"pid":1668,"hostname":"Surelle","msg":"MongoDB connected"}
+{"level":30,"time":1714891750904,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714891750905,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714891750909,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714891750911,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714891750913,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714891750915,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714891750916,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714891750918,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714891750919,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714891750920,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714891750921,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714891750923,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714891750925,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714891750927,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714891750928,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714891750929,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714891787367,"pid":1668,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714891787477,"pid":1668,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714891787540,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714891787543,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714891787546,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714891787552,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714892059687,"pid":1668,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714892059791,"pid":1668,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714892059885,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714892059888,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714892059897,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_5 fetched successfully."}
+{"level":30,"time":1714892059904,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_5 fetched successfully."}
+{"level":30,"time":1714892059905,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_6 fetched successfully."}
+{"level":30,"time":1714892059906,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714892059911,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714892059914,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_6 fetched successfully."}
+{"level":30,"time":1714892059921,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_7 fetched successfully."}
+{"level":30,"time":1714892059922,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_7 fetched successfully."}
+{"level":30,"time":1714892059923,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_3 fetched successfully."}
+{"level":30,"time":1714892059928,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_8 fetched successfully."}
+{"level":30,"time":1714892059932,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_8 fetched successfully."}
+{"level":30,"time":1714892059933,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_3 fetched successfully."}
+{"level":30,"time":1714892059937,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_4 fetched successfully."}
+{"level":30,"time":1714892059938,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_4 fetched successfully."}
+{"level":30,"time":1714892125529,"pid":1668,"hostname":"Surelle","msg":"Request from Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+{"level":30,"time":1714892125638,"pid":1668,"hostname":"Surelle","msg":"Search completed"}
+{"level":30,"time":1714892125739,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714892125740,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714892125743,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714892125744,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}
+{"level":30,"time":1714892141697,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_1 fetched successfully."}
+{"level":30,"time":1714892141700,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_1 fetched successfully."}
+{"level":30,"time":1714892141704,"pid":1668,"hostname":"Surelle","msg":"Content for Scene_2 fetched successfully."}
+{"level":30,"time":1714892141705,"pid":1668,"hostname":"Surelle","msg":"Prompt for Scene_2 fetched successfully."}

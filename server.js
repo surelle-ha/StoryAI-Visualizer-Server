@@ -774,6 +774,57 @@ app.post("/api/scenario/image/delete", async (req, res) => {
 	}
 });
 
+app.post("/api/scenario/image/select/create", async (req, res) => {
+    const { story_id, chapter_id, scene_id, image_source } = req.body;
+
+    if (!image_source) {
+        return res.status(400).send("No image source provided.");
+    }
+
+    const sceneDirPath = path.join(
+		rootStorage,
+		"story_archive",
+		`Story_${story_id}`,
+		`Chapter_${chapter_id}`,
+		`Scene_${scene_id}`
+	);
+
+    // Ensure directory exists
+    if (!fs.existsSync(sceneDirPath)) {
+        fs.mkdirSync(sceneDirPath, { recursive: true });
+    }
+
+    const imagePath = path.join(sceneDirPath, "image.png");
+
+    // Download the image from the URL
+    try {
+        const response = await axios({
+            method: 'get',
+            url: image_source,
+            responseType: 'stream'
+        });
+
+        const writer = fs.createWriteStream(imagePath);
+
+        response.data.pipe(writer);
+
+        return new Promise((resolve, reject) => {
+            writer.on('finish', () => {
+                res.send("File downloaded and saved!");
+                resolve();
+            });
+
+            writer.on('error', (err) => {
+                res.status(500).send(err);
+                reject(err);
+            });
+        });
+
+    } catch (error) {
+        return res.status(500).send("Failed to download the image: " + error.message);
+    }
+});
+
 app.post("/api/scenario/image/local/create", (req, res) => {
 	if (!req.files || Object.keys(req.files).length === 0) {
 		return res.status(400).send("No files were uploaded.");

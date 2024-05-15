@@ -52,11 +52,11 @@ app.use(express.urlencoded({ extended: true }));
 
 const rootStorage = path.join(__dirname, "storage");
 
-const imagesFilesDir = path.join(rootStorage, "public_images");
+const imagesFilesDir = path.join(rootStorage, "user_images");
 if (!existsSync(imagesFilesDir)) {
 	mkdirSync(imagesFilesDir);
 }
-app.use("/public_images", express.static(imagesFilesDir));
+app.use("/user_images", express.static(imagesFilesDir));
 
 const storyAssetDir = path.join(rootStorage, "story_archive");
 if (!existsSync(storyAssetDir)) {
@@ -997,11 +997,19 @@ app.post("/api/scenario/image/premium/create", async (req, res) => {
 				writer.on("finish", async () => {
 					logger.info(`${fileName} is created.`);
 
-					// Now copy the file to public_images directory
+					// Now copy the file to user_images directory
 					const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-					const publicImagePath = path.join(
+
+					const publicImagePathRaw = path.join(
 						rootStorage,
-						"public_images",
+						"user_images",
+						access_id
+					);
+					if (!existsSync(publicImagePathRaw)) {
+						mkdirSync(publicImagePathRaw);
+					}
+					const publicImagePath = path.join(
+						publicImagePathRaw,
 						`image_${timestamp}.png`
 					);
 					fs.copyFile(localImagePath, publicImagePath, (err) => {
@@ -1029,15 +1037,16 @@ app.post("/api/scenario/image/premium/create", async (req, res) => {
 	}
 });
 
-app.get("/api/scenario/image/public/fetch", (req, res) => {
-	fs.readdir(imagesFilesDir, (err, files) => {
+app.get("/api/scenario/image/:id/fetch", (req, res) => {
+	const access_id = req.params.id;
+	fs.readdir(path.join(imagesFilesDir, access_id), (err, files) => {
 		if (err) {
 			console.error("Failed to read directory:", err);
 			return res.status(500).send("Error reading image directory");
 		}
 		const imageUrls = files
 			.filter((file) => file.endsWith(".png"))
-			.map((file) => `${ENV_BASE}/public_images/${file}`);
+			.map((file) => `${ENV_BASE}/user_images/${access_id}/${file}`);
 		res.json(imageUrls);
 	});
 });

@@ -25,11 +25,14 @@
     "mongoose": "^8.3.1",
     "multer": "^1.4.5-lts.1",
     "node-fetch": "^3.3.2",
+    "node-html-to-image": "^4.0.0",
     "nodemon": "^3.1.0",
     "openai": "^4.33.0",
+    "pdfkit": "^0.15.0",
     "pino": "^8.20.0",
     "pino-pretty": "^11.0.0",
     "playht": "^0.9.8",
+    "sharp": "^0.33.4",
     "vue": "^3.4.21"
   }
 }

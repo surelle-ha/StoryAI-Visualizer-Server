@@ -9,6 +9,8 @@ const axios = require("axios");
 const path = require("path");
 const fileUpload = require("express-fileupload");
 const OpenAI = require("openai");
+const PDFDocument = require('pdfkit');
+const sharp = require('sharp');
 const { exec, execSync } = require("child_process");
 const connectDB = require("./config/mongodb");
 const router = require("./routes/routes");
@@ -67,6 +69,70 @@ app.use("/story_archive", express.static(storyAssetDir));
 app.use(fileUpload());
 
 app.use("/", router);
+
+app.post("/api/story/select", async (req, res) => {
+	const { access_id, story_id } = req.body;
+	const startTime = new Date();
+	const userAgent = req.headers["user-agent"];
+	const requestHeaders = req.headers;
+	logger.info(`Request from ${userAgent} for story ${story_id}`);
+
+	if (!access_id || !story_id) {
+		logger.error(`Missing access_id or story_id in the request`);
+		return res.status(400).json({
+			status: "error",
+			message: "Missing access_id or story_id in the request",
+		});
+	}
+
+	try {
+		// Initialize directories for story archives if they do not exist
+		const storyArchiveDir = path.join(rootStorage, "story_archive");
+		if (!fs.existsSync(storyArchiveDir)) {
+			fs.mkdirSync(storyArchiveDir);
+			logger.info(`Directory 'story_archive' initialized.`);
+		}
+
+		const storyDir = path.join(storyArchiveDir, "Story_" + story_id);
+		if (!fs.existsSync(storyDir)) {
+			fs.mkdirSync(storyDir);
+			logger.info(`Directory 'Story_${story_id}' initialized.`);
+		}
+
+		// List all chapter directories that match the "Chapter_" prefix
+		const chapters = fs
+			.readdirSync(storyDir, { withFileTypes: true })
+			.filter(
+				(dirent) => dirent.isDirectory() && dirent.name.startsWith("Chapter_")
+			)
+			.map((dirent) => dirent.name);
+
+		const endTime = new Date();
+		const duration = endTime - startTime;
+
+		logger.info(`Chapters for story ${story_id} fetched successfully.`);
+		return res.status(200).json({
+			chapters: chapters,
+		});
+	} catch (error) {
+		const endTime = new Date();
+		const duration = endTime - startTime;
+
+		logger.error(
+			`An error occurred while fetching chapters for story ${story_id}:`,
+			error
+		);
+		return res.status(500).json({
+			status: "error",
+			message: "An error occurred while fetching chapters",
+			error: error,
+			requestTime: startTime.toISOString(),
+			responseSpeed: `${duration} ms`,
+			userAgent: userAgent,
+			requestHeaders: requestHeaders,
+		});
+	}
+});
 
 app.post("/api/story/initialize", async (req, res) => {
 	/* CHECKED */
@@ -252,6 +318,148 @@ app.post("/api/scenario/initialize", async (req, res) => {
 		res.status(500).json({
 			status: "error",
 			message: "An error occurred while building story board",
+			error: error,
+			requestTime: startTime.toISOString(),
+			responseSpeed: `${duration} ms`,
+			userAgent: userAgent,
+			requestHeaders: requestHeaders,
+		});
+	}
+});
+
+app.post("/api/chapter/initialize", async (req, res) => {
+	/* CHECKED */
+	const { story_id } = req.body;
+
+	const startTime = new Date();
+	const userAgent = req.headers["user-agent"];
+	const requestHeaders = req.headers;
+	logger.info(`Request from ${userAgent}`);
+
+	if (!story_id) {
+		logger.error(`Missing story_id in the request`);
+		return res.status(400).json({
+			status: "error",
+			message: "Missing Story ID or Chapter ID in the request",
+		});
+	}
+
+	try {
+		const storyArchiveDir = path.join(rootStorage, "story_archive");
+		if (!fs.existsSync(storyArchiveDir)) {
+			fs.mkdirSync(storyArchiveDir);
+			logger.info(`Directory 'story_archive' Initialized.`);
+		}
+
+		const storyDir = path.join(storyArchiveDir, "Story_" + story_id);
+		if (!fs.existsSync(storyDir)) {
+			fs.mkdirSync(storyDir);
+			logger.info(`Directory 'Story_${story_id}' Initialized.`);
+		}
+
+		// Read existing scene directories and find the next available or new scene number
+		const existingChapters = fs
+			.readdirSync(storyDir)
+			.filter(
+				(file) =>
+					fs.statSync(path.join(storyDir, file)).isDirectory() &&
+					file.startsWith("Chapter_")
+			)
+			.map((file) => parseInt(file.split("_")[1]))
+			.sort((a, b) => a - b);
+
+		let nextChapterNumber = 1;
+		for (let i = 0; i < existingChapters.length; i++) {
+			if (existingChapters[i] !== nextChapterNumber) break;
+			nextChapterNumber++;
+		}
+
+		const nextChapterDir = path.join(storyDir, `Chapter_${nextChapterNumber}`);
+		fs.mkdirSync(nextChapterDir);
+		logger.info(`Directory '${nextChapterDir}' created for the next scene.`);
+
+		const endTime = new Date();
+		const duration = endTime - startTime;
+
+		logger.info(`Chapter initialization completed`);
+		return res.status(200).json({
+			status: "success",
+			sceneNumber: nextChapterNumber,
+			message: "Chapter Initialization completed",
+			requestTime: startTime.toISOString(),
+			responseSpeed: `${duration} ms`,
+			userAgent: userAgent,
+			requestHeaders: requestHeaders,
+		});
+	} catch (error) {
+		const endTime = new Date();
+		const duration = endTime - startTime;
+
+		logger.error(`An error occurred while building story board:`, error);
+		res.status(500).json({
+			status: "error",
+			message: "An error occurred while building story board",
+			error: error,
+			requestTime: startTime.toISOString(),
+			responseSpeed: `${duration} ms`,
+			userAgent: userAgent,
+			requestHeaders: requestHeaders,
+		});
+	}
+});
+
+app.post("/api/chapter/delete", async (req, res) => {
+	const { story_id, chapter_id } = req.body;
+	const startTime = new Date();
+	const userAgent = req.headers["user-agent"];
+	const requestHeaders = req.headers;
+	logger.info(
+		`Delete request from ${userAgent} for Story ${story_id}, Chapter ${chapter_id}`
+	);
+
+	if (!story_id || !chapter_id) {
+		logger.error(`Missing story_id or chapter_id in the request`);
+		return res.status(400).json({
+			status: "error",
+			message: "Missing Story ID or Chapter ID in the request",
+		});
+	}
+
+	try {
+		const storyArchiveDir = path.join(rootStorage, "story_archive");
+		const storyDir = path.join(storyArchiveDir, "Story_" + story_id);
+		const chapterDir = path.join(storyDir, "Chapter_" + chapter_id);
+
+		if (!fs.existsSync(chapterDir)) {
+			logger.error(`Chapter directory does not exist`);
+			return res.status(404).json({
+				status: "error",
+				message: "Chapter directory does not exist",
+			});
+		}
+
+		fs.rmdirSync(chapterDir, { recursive: true });
+		logger.info(`Directory '${chapterDir}' deleted successfully.`);
+
+		const endTime = new Date();
+		const duration = endTime - startTime;
+
+		return res.status(200).json({
+			status: "success",
+			message: "Chapter directory deleted successfully",
+			requestTime: startTime.toISOString(),
+			responseSpeed: `${duration} ms`,
+			userAgent: userAgent,
+			requestHeaders: requestHeaders,
+		});
+	} catch (error) {
+		const endTime = new Date();
+		const duration = endTime - startTime;
+
+		logger.error(`An error occurred while deleting the chapter:`, error);
+		res.status(500).json({
+			status: "error",
+			message: "An error occurred while deleting the chapter",
 			error: error,
 			requestTime: startTime.toISOString(),
 			responseSpeed: `${duration} ms`,
@@ -583,6 +791,26 @@ app.post("/api/scenario/narrate/free/create", async (req, res) => {
 	}
 });
 
+app.get("/api/scene/bgm/fetch", (req, res) => {
+	/* CHECKED */
+	const { story_id, chapter_id, scene_id } = req.query;
+	const sceneDirPath = path.join(
+		rootStorage,
+		"story_archive",
+		`Story_${story_id}`,
+		`Chapter_${chapter_id}`,
+		`Scene_${scene_id}`
+	);
+	const audioFilePath = path.join(sceneDirPath, "bg.mp3");
+
+	if (fs.existsSync(audioFilePath)) {
+		res.sendFile(audioFilePath);
+	} else {
+		logger.error("BGM file does not exist");
+		res.status(404).send("BGM file not found");
+	}
+});
+
 app.get("/api/scene/narrate/fetch", (req, res) => {
 	/* CHECKED */
 	const { story_id, chapter_id, scene_id } = req.query;
@@ -685,6 +913,34 @@ app.post("/api/scenario/narrate/premium/create", async (req, res) => {
 	res.status(200).json(tokenResult);
 });
 
+app.post("/api/scenario/bgm/delete", async (req, res) => {
+	/* CHECKED */
+	const { story_id, chapter_id, scene_id } = req.body;
+	const sceneDirPath = path.join(
+		rootStorage,
+		"story_archive",
+		`Story_${story_id}`,
+		`Chapter_${chapter_id}`,
+		`Scene_${scene_id}`
+	);
+	const filePath = path.join(sceneDirPath, "bg.mp3");
+
+	if (fs.existsSync(filePath)) {
+		fs.unlink(filePath, (err) => {
+			if (err) {
+				logger.error("Failed to delete the BGM file", err);
+				return res.status(500).send("Failed to delete the BGM file");
+			}
+
+			logger.info("BGM file deleted successfully.");
+			res.status(200).send("BGM file deleted successfully");
+		});
+	} else {
+		logger.warn("BGM file not found");
+		res.status(404).send("BGM file not found");
+	}
+});
+
 app.post("/api/scenario/narrate/delete", async (req, res) => {
 	/* CHECKED */
 	const { story_id, chapter_id, scene_id } = req.body;
@@ -775,13 +1031,13 @@ app.post("/api/scenario/image/delete", async (req, res) => {
 });
 
 app.post("/api/scenario/image/select/create", async (req, res) => {
-    const { story_id, chapter_id, scene_id, image_source } = req.body;
+	const { story_id, chapter_id, scene_id, image_source } = req.body;
 
-    if (!image_source) {
-        return res.status(400).send("No image source provided.");
-    }
+	if (!image_source) {
+		return res.status(400).send("No image source provided.");
+	}
 
-    const sceneDirPath = path.join(
+	const sceneDirPath = path.join(
 		rootStorage,
 		"story_archive",
 		`Story_${story_id}`,
@@ -789,40 +1045,74 @@ app.post("/api/scenario/image/select/create", async (req, res) => {
 		`Scene_${scene_id}`
 	);
 
-    // Ensure directory exists
-    if (!fs.existsSync(sceneDirPath)) {
-        fs.mkdirSync(sceneDirPath, { recursive: true });
-    }
+	// Ensure directory exists
+	if (!fs.existsSync(sceneDirPath)) {
+		fs.mkdirSync(sceneDirPath, { recursive: true });
+	}
 
-    const imagePath = path.join(sceneDirPath, "image.png");
+	const imagePath = path.join(sceneDirPath, "image.png");
 
-    // Download the image from the URL
-    try {
-        const response = await axios({
-            method: 'get',
-            url: image_source,
-            responseType: 'stream'
-        });
+	// Download the image from the URL
+	try {
+		const response = await axios({
+			method: "get",
+			url: image_source,
+			responseType: "stream",
+		});
 
-        const writer = fs.createWriteStream(imagePath);
+		const writer = fs.createWriteStream(imagePath);
 
-        response.data.pipe(writer);
+		response.data.pipe(writer);
 
-        return new Promise((resolve, reject) => {
-            writer.on('finish', () => {
-                res.send("File downloaded and saved!");
-                resolve();
-            });
+		return new Promise((resolve, reject) => {
+			writer.on("finish", () => {
+				res.send("File downloaded and saved!");
+				resolve();
+			});
 
-            writer.on('error', (err) => {
-                res.status(500).send(err);
-                reject(err);
-            });
-        });
+			writer.on("error", (err) => {
+				res.status(500).send(err);
+				reject(err);
+			});
+		});
+	} catch (error) {
+		return res
+			.status(500)
+			.send("Failed to download the image: " + error.message);
+	}
+});
 
-    } catch (error) {
-        return res.status(500).send("Failed to download the image: " + error.message);
-    }
+app.post("/api/scenario/bgm/local/create", (req, res) => {
+	if (!req.files || Object.keys(req.files).length === 0) {
+		return res.status(400).send("No files were uploaded.");
+	}
+
+	// Access the uploaded file via req.files.<inputName>, here inputName is 'image'
+	let imageFile = req.files.image;
+
+	const { story_id, chapter_id, scene_id } = req.body;
+	const sceneDirPath = path.join(
+		rootStorage,
+		"story_archive",
+		`Story_${story_id}`,
+		`Chapter_${chapter_id}`,
+		`Scene_${scene_id}`
+	);
+
+	// Ensure directory exists
+	if (!fs.existsSync(sceneDirPath)) {
+		fs.mkdirSync(sceneDirPath, { recursive: true });
+	}
+
+	const imagePath = path.join(sceneDirPath, "bg.mp3");
+
+	// Use the mv() method to place the file somewhere on your server
+	imageFile.mv(imagePath, function (err) {
+		if (err) {
+			return res.status(500).send(err);
+		}
+		res.send("File uploaded!");
+	});
 });
 
 app.post("/api/scenario/image/local/create", (req, res) => {
@@ -1051,7 +1341,176 @@ app.get("/api/scenario/image/:id/fetch", (req, res) => {
 	});
 });
 
-app.post("/api/scenario/complete/fetch", async (req, res) => {
+app.post("/api/scenario/complete/v1/create-pdf", async (req, res) => {
+    const { story_id, column_number } = req.body;
+    const storyDirPath = path.join(
+        rootStorage,
+        "story_archive",
+        `Story_${story_id}`
+    );
+
+    try {
+        const chapters = fs.readdirSync(storyDirPath);
+        const doc = new PDFDocument({ autoFirstPage: false });
+        
+        res.setHeader('Content-Type', 'application/pdf');
+        res.setHeader('Content-Disposition', `attachment; filename=story_${story_id}.pdf`);
+        doc.pipe(res);
+
+        let itemCount = 0;
+        for (const chapter of chapters) {
+            const chapterPath = path.join(storyDirPath, chapter);
+            if (fs.statSync(chapterPath).isDirectory()) {
+                const scenes = fs.readdirSync(chapterPath);
+
+                for (const scene of scenes) {
+                    const scenePath = path.join(chapterPath, scene);
+                    if (fs.statSync(scenePath).isDirectory()) {
+                        const files = fs.readdirSync(scenePath);
+
+                        if (files.includes("narration.mp3") && files.includes("image.png") && files.includes("content.txt")) {
+                            if (itemCount % column_number === 0) { // Start a new page every 4 scenes
+                                doc.addPage({ size: 'A4', layout: 'landscape' });
+                                itemCount = 0; // Reset counter for new page
+                            }
+                            
+                            const imagePath = path.join(scenePath, "image.png");
+                            const textPath = path.join(scenePath, "content.txt");
+                            
+                            // Convert image to ensure compatibility
+                            const imageBuffer = await sharp(imagePath)
+                                .toFormat('png')
+                                .toBuffer()
+                                .catch(err => {
+                                    console.error('Error processing image:', err);
+                                    throw new Error('Image processing failed');
+                                });
+
+                            // Calculate x position based on item count
+                            const xPosition = (doc.page.width / 4) * (itemCount % 4);
+                            const yPosition = 50; // Start a bit down from the top of the page
+
+                            doc.image(imageBuffer, xPosition + 10, yPosition, {
+                                fit: [150, 100],
+                                align: 'center',
+                                valign: 'top'
+                            });
+
+                            const contentText = fs.readFileSync(textPath, 'utf8');
+                            doc.text(contentText, xPosition + 10, yPosition + 110, {
+                                width: 150,
+                                align: 'center'
+                            });
+
+                            // Draw border around the card
+                            doc.rect(xPosition + 5, yPosition - 5, 170, 220).stroke();
+
+                            itemCount++;
+                        }
+                    }
+                }
+            }
+        }
+
+        doc.end();
+    } catch (err) {
+        console.error('Failed to generate PDF:', err);
+        res.status(500).send("Failed to generate PDF: " + err.message);
+    }
+});
+
+app.post("/api/scenario/complete/v2/fetch", async (req, res) => {
+	const { story_id } = req.body;
+	const storyDirPath = path.join(
+		rootStorage,
+		"story_archive",
+		`Story_${story_id}`
+	);
+
+	try {
+		const chapters = fs.readdirSync(storyDirPath);
+		const results = {};
+
+		for (const chapter of chapters) {
+			const chapterPath = path.join(storyDirPath, chapter);
+			if (fs.statSync(chapterPath).isDirectory()) {
+				// Ensure it is a directory
+				const scenes = fs.readdirSync(chapterPath);
+
+				for (const scene of scenes) {
+					const scenePath = path.join(chapterPath, scene);
+					if (fs.statSync(scenePath).isDirectory()) {
+						// Ensure it is a directory
+						const files = fs.readdirSync(scenePath);
+						console.log(files);
+
+						if (
+							files.includes("narration.mp3") &&
+							files.includes("image.png") &&
+							files.includes("content.txt")
+						) {
+							if (files.includes("bg.mp3")) {
+								results[`${chapter}/${scene}`] = {
+									sound: `${ENV_BASE}/story_archive/${path.join(
+										"Story_" + story_id,
+										chapter,
+										scene,
+										"narration.mp3"
+									)}`,
+									bgm: `${ENV_BASE}/story_archive/${path.join(
+										"Story_" + story_id,
+										chapter,
+										scene,
+										"bg.mp3"
+									)}`,
+									image: `${ENV_BASE}/story_archive/${path.join(
+										"Story_" + story_id,
+										chapter,
+										scene,
+										"image.png"
+									)}`,
+									context: `${ENV_BASE}/story_archive/${path.join(
+										"Story_" + story_id,
+										chapter,
+										scene,
+										"content.txt"
+									)}`,
+								};
+							} else {
+								results[`${chapter}/${scene}`] = {
+									sound: `${ENV_BASE}/story_archive/${path.join(
+										"Story_" + story_id,
+										chapter,
+										scene,
+										"narration.mp3"
+									)}`,
+									image: `${ENV_BASE}/story_archive/${path.join(
+										"Story_" + story_id,
+										chapter,
+										scene,
+										"image.png"
+									)}`,
+									context: `${ENV_BASE}/story_archive/${path.join(
+										"Story_" + story_id,
+										chapter,
+										scene,
+										"content.txt"
+									)}`,
+								};
+							}
+						}
+					}
+				}
+			}
+		}
+
+		res.json(results);
+	} catch (err) {
+		res.status(500).json({ error: "Failed to read scenes: " + err.message });
+	}
+});
+
+app.post("/api/scenario/complete/v1/fetch", async (req, res) => {
 	const { story_id, chapter_id } = req.body;
 	const sceneDirPath = path.join(
 		rootStorage,
@@ -1103,7 +1562,7 @@ app.post("/api/scenario/complete/fetch", async (req, res) => {
 	}
 });
 
-app.post("/api/video/generate", async (req, res) => {
+app.post("/api/video/v2/generate", async (req, res) => {
 	const { story_id, chapter_id } = req.body;
 	const chapterDirPath = path.join(
 		rootStorage,
@@ -1189,9 +1648,98 @@ app.post("/api/video/generate", async (req, res) => {
 		console.log("Video generated successfully");
 
 		// Send the URL of the generated video
-		const videoUrl = `${req.protocol}://${req.get(
-			"host"
-		)}/story_archive/Story_${story_id}/Chapter_${chapter_id}.mp4`;
+		const videoUrl = `${process.env.SERVER_BASE}/story_archive/Story_${story_id}/Chapter_${chapter_id}.mp4`;
+		res.json({ message: "Video generated successfully", url: videoUrl });
+	});
+});
+
+app.post("/api/video/v1/generate", async (req, res) => {
+	const { story_id, chapter_id } = req.body;
+	const chapterDirPath = path.join(
+		rootStorage,
+		"story_archive",
+		`Story_${story_id}`,
+		`Chapter_${chapter_id}`
+	);
+
+	if (!fs.existsSync(chapterDirPath)) {
+		return res
+			.status(404)
+			.json({ error: "Chapter directory not found: " + chapterDirPath });
+	}
+
+	const directories = fs.readdirSync(chapterDirPath);
+	const scenes = directories.filter((dir) => dir.startsWith("Scene_"));
+	let ffmpegInputs = "";
+	let filterComplexScale = "";
+	let filterComplexConcat = "";
+	let totalStreams = 0;
+
+	for (const scene of scenes) {
+		const sceneDirPath = path.join(chapterDirPath, scene);
+		const imagePath = path.join(sceneDirPath, "image.png");
+		const audioPath = path.join(sceneDirPath, "narration.mp3");
+
+		if (!fs.existsSync(imagePath) || !fs.existsSync(audioPath)) {
+			console.error(`Missing files for scene: ${scene}`);
+			return res
+				.status(400)
+				.json({ error: `Missing files for scene: ${scene}` });
+		}
+
+		const duration = execSync(
+			`ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${audioPath}"`
+		)
+			.toString()
+			.trim();
+		ffmpegInputs += `-t ${duration} -i "${imagePath}" -i "${audioPath}" `;
+		filterComplexScale += `[${totalStreams}:v]scale=1024:1024[v${totalStreams}];`;
+		filterComplexConcat += `[v${totalStreams}][${totalStreams + 1}:a]`;
+		totalStreams += 2; // Increment for each video and audio stream
+	}
+
+	filterComplexConcat += `concat=n=${scenes.length}:v=1:a=1[v][a]`;
+
+	if (totalStreams === 0) {
+		return res
+			.status(500)
+			.json({ error: "No valid scenes were found to generate the video." });
+	}
+
+	const outputPath = path.join(
+		rootStorage,
+		"story_archive",
+		`Story_${story_id}`,
+		`Chapter_${chapter_id}.mp4`
+	);
+	const ffmpegCommand =
+		`ffmpeg ${ffmpegInputs} -filter_complex ` +
+		`"${scenes
+			.map(
+				(_, i) =>
+					`[${2 * i}:v]scale=1024:1024,setsar=1[v${i}];[${
+						2 * i + 1
+					}:a]aformat=sample_fmts=fltp:sample_rates=22050:channel_layouts=mono[a${i}]`
+			)
+			.join(";")}` +
+		`;${scenes.map((_, i) => `[v${i}][a${i}]`).join("")}concat=n=${
+			scenes.length
+		}:v=1:a=1[v][a]" ` +
+		`-map "[v]" -map "[a]" -c:v libx264 -c:a aac -b:a 192k -shortest -y "${outputPath}"`;
+
+	console.log(`Executing command: ${ffmpegCommand}`);
+
+	exec(ffmpegCommand, (error, stdout, stderr) => {
+		if (error) {
+			console.error(`Error generating video: ${error.message}`);
+			return res
+				.status(500)
+				.json({ error: "Video generation failed: " + error.message });
+		}
+		console.log("Video generated successfully");
+
+		// Send the URL of the generated video
+		const videoUrl = `${process.env.SERVER_BASE}/story_archive/Story_${story_id}/Chapter_${chapter_id}.mp4`;
 		res.json({ message: "Video generated successfully", url: videoUrl });
 	});
 });

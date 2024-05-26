@@ -71,67 +71,73 @@ app.use(fileUpload());
 app.use("/", router);
 
 app.post("/api/story/select", async (req, res) => {
-	const { access_id, story_id } = req.body;
-	const startTime = new Date();
-	const userAgent = req.headers["user-agent"];
-	const requestHeaders = req.headers;
-	logger.info(`Request from ${userAgent} for story ${story_id}`);
+    const { access_id, story_id } = req.body;
+    const startTime = new Date();
+    const userAgent = req.headers["user-agent"];
+    const requestHeaders = req.headers;
+    logger.info(`Request from ${userAgent} for story ${story_id}`);
 
-	if (!access_id || !story_id) {
-		logger.error(`Missing access_id or story_id in the request`);
-		return res.status(400).json({
-			status: "error",
-			message: "Missing access_id or story_id in the request",
-		});
-	}
+    if (!access_id || !story_id) {
+        logger.error(`Missing access_id or story_id in the request`);
+        return res.status(400).json({
+            status: "error",
+            message: "Missing access_id or story_id in the request",
+        });
+    }
 
-	try {
-		// Initialize directories for story archives if they do not exist
-		const storyArchiveDir = path.join(rootStorage, "story_archive");
-		if (!fs.existsSync(storyArchiveDir)) {
-			fs.mkdirSync(storyArchiveDir);
-			logger.info(`Directory 'story_archive' initialized.`);
-		}
+    try {
+        // Initialize directories for story archives if they do not exist
+        const storyArchiveDir = path.join(rootStorage, "story_archive");
+        if (!fs.existsSync(storyArchiveDir)) {
+            fs.mkdirSync(storyArchiveDir);
+            logger.info(`Directory 'story_archive' initialized.`);
+        }
 
-		const storyDir = path.join(storyArchiveDir, "Story_" + story_id);
-		if (!fs.existsSync(storyDir)) {
-			fs.mkdirSync(storyDir);
-			logger.info(`Directory 'Story_${story_id}' initialized.`);
-		}
+        const storyDir = path.join(storyArchiveDir, "Story_" + story_id);
+        if (!fs.existsSync(storyDir)) {
+            fs.mkdirSync(storyDir);
+            logger.info(`Directory 'Story_${story_id}' initialized.`);
+        }
 
-		// List all chapter directories that match the "Chapter_" prefix
-		const chapters = fs
-			.readdirSync(storyDir, { withFileTypes: true })
-			.filter(
-				(dirent) => dirent.isDirectory() && dirent.name.startsWith("Chapter_")
-			)
-			.map((dirent) => dirent.name);
+        // List all chapter directories that match the "Chapter_" prefix
+        const chapters = fs
+            .readdirSync(storyDir, { withFileTypes: true })
+            .filter(dirent => dirent.isDirectory() && dirent.name.startsWith("Chapter_"))
+            .map(dirent => {
+                const chapterDir = path.join(storyDir, dirent.name);
+                // List all scene directories within each chapter
+                const scenes = fs
+                    .readdirSync(chapterDir, { withFileTypes: true })
+                    .filter(sceneDirent => sceneDirent.isDirectory() && sceneDirent.name.startsWith("Scene_"))
+                    .map(sceneDirent => sceneDirent.name);
+                return { chapter: dirent.name, scenes: scenes };
+            });
 
-		const endTime = new Date();
-		const duration = endTime - startTime;
+        const endTime = new Date();
+        const duration = endTime - startTime;
 
-		logger.info(`Chapters for story ${story_id} fetched successfully.`);
-		return res.status(200).json({
-			chapters: chapters,
-		});
-	} catch (error) {
-		const endTime = new Date();
-		const duration = endTime - startTime;
+        logger.info(`Chapters and scenes for story ${story_id} fetched successfully.`);
+        return res.status(200).json({
+            chapters: chapters
+        });
+    } catch (error) {
+        const endTime = new Date();
+        const duration = endTime - startTime;
 
-		logger.error(
-			`An error occurred while fetching chapters for story ${story_id}:`,
-			error
-		);
-		return res.status(500).json({
-			status: "error",
-			message: "An error occurred while fetching chapters",
-			error: error,
-			requestTime: startTime.toISOString(),
-			responseSpeed: `${duration} ms`,
-			userAgent: userAgent,
-			requestHeaders: requestHeaders,
-		});
-	}
+        logger.error(
+            `An error occurred while fetching chapters and scenes for story ${story_id}:`,
+            error
+        );
+        return res.status(500).json({
+            status: "error",
+            message: "An error occurred while fetching chapters and scenes",
+            error: error,
+            requestTime: startTime.toISOString(),
+            responseSpeed: `${duration} ms`,
+            userAgent: userAgent,
+            requestHeaders: requestHeaders,
+        });
+    }
 });
 
 app.post("/api/story/initialize", async (req, res) => {

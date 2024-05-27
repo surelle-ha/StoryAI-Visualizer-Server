@@ -568,6 +568,74 @@ app.delete("/api/scenario/delete", async (req, res) => {
 	}
 });
 
+app.post("/api/scenario/sfx/save", async (req, res) => {
+    const { story_id, chapter_id, scene_id, sfx_ids } = req.body;
+
+    const sceneDirPath = path.join(
+        rootStorage,
+        "story_archive",
+        `Story_${story_id}`,
+        `Chapter_${chapter_id}`,
+        `Scene_${scene_id}`
+    );
+
+    const sfxFilePath = path.join(sceneDirPath, "sfx.json");
+
+    try {
+        if (!fs.existsSync(sceneDirPath)) {
+            fs.mkdirSync(sceneDirPath, { recursive: true });
+        }
+
+        fs.writeFileSync(sfxFilePath, JSON.stringify({ sfx: sfx_ids }, null, 2));
+        return res.status(201).json({
+            status: "success",
+            message: "SFX saved successfully."
+        });
+    } catch (error) {
+        return res.status(500).json({
+            status: "error",
+            message: "Failed to save scene SFX",
+            error: error.message
+        });
+    }
+});
+
+app.post("/api/scenario/sfx/get", async (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.body;
+
+    const sceneDirPath = path.join(
+        rootStorage,
+        "story_archive",
+        `Story_${story_id}`,
+        `Chapter_${chapter_id}`,
+        `Scene_${scene_id}`
+    );
+
+    const sfxFilePath = path.join(sceneDirPath, "sfx.json");
+
+    try {
+        if (fs.existsSync(sfxFilePath)) {
+            const sfxData = fs.readFileSync(sfxFilePath, 'utf8');
+            return res.status(200).json({
+                status: "success",
+                message: "SFX data retrieved successfully.",
+                data: JSON.parse(sfxData)
+            });
+        } else {
+            return res.status(404).json({
+                status: "error",
+                message: "SFX data not found"
+            });
+        }
+    } catch (error) {
+        return res.status(500).json({
+            status: "error",
+            message: "Failed to retrieve scene SFX",
+            error: error.message
+        });
+    }
+});
+
 app.post("/api/scenario/content/save", async (req, res) => {
 	/* CHECKED */
 	const { story_id, chapter_id, scene_id, scene_content } = req.body;
@@ -993,11 +1061,11 @@ app.get("/api/scenario/image/get", (req, res) => {
 		`Chapter_${chapter_id}`,
 		`Scene_${scene_id}`
 	);
-	const imagePath = path.join(sceneDirPath, "image.png");
+	const imagePath = path.join(sceneDirPath, "image.gif");
 
 	if (fs.existsSync(imagePath)) {
 		// Send the path as a URL or a relative path depending on your server setup
-		const imageUrl = `/story_archive/Story_${story_id}/Chapter_${chapter_id}/Scene_${scene_id}/image.png`;
+		const imageUrl = `/story_archive/Story_${story_id}/Chapter_${chapter_id}/Scene_${scene_id}/image.gif`;
 		console.log(imageUrl);
 		res.json({ imageUrl: imageUrl });
 	} else {
@@ -1018,7 +1086,7 @@ app.post("/api/scenario/image/delete", async (req, res) => {
 		`Chapter_${chapter_id}`,
 		`Scene_${scene_id}`
 	);
-	const filePath = path.join(sceneDirPath, "image.png");
+	const filePath = path.join(sceneDirPath, "image.gif");
 
 	if (fs.existsSync(filePath)) {
 		fs.unlink(filePath, (err) => {
@@ -1056,7 +1124,7 @@ app.post("/api/scenario/image/select/create", async (req, res) => {
 		fs.mkdirSync(sceneDirPath, { recursive: true });
 	}
 
-	const imagePath = path.join(sceneDirPath, "image.png");
+	const imagePath = path.join(sceneDirPath, "image.gif");
 
 	// Download the image from the URL
 	try {
@@ -1143,7 +1211,7 @@ app.post("/api/scenario/image/local/create", (req, res) => {
 		fs.mkdirSync(sceneDirPath, { recursive: true });
 	}
 
-	const imagePath = path.join(sceneDirPath, "image.png");
+	const imagePath = path.join(sceneDirPath, "image.gif");
 
 	// Use the mv() method to place the file somewhere on your server
 	imageFile.mv(imagePath, function (err) {
@@ -1183,7 +1251,7 @@ app.post("/api/scenario/image/free/create", async (req, res) => {
 			url: imageUrl,
 			responseType: "stream",
 		});
-		const fileName = `image.png`;
+		const fileName = `image.gif`;
 		const localImagePath = path.join(sceneDirPath, fileName);
 		const writer = fs.createWriteStream(localImagePath);
 		imageResponse.data.pipe(writer);
@@ -1195,8 +1263,8 @@ app.post("/api/scenario/image/free/create", async (req, res) => {
 			});
 		});
 
-		logger.info("image.png is created.");
-		res.status(200).send("image.png is created");
+		logger.info("image.gif is created.");
+		res.status(200).send("image.gif is created");
 	} else {
 		logger.warn(`Google unable to find image in reference to prompt.`);
 		res
@@ -1280,7 +1348,7 @@ app.post("/api/scenario/image/premium/create", async (req, res) => {
 				responseType: "stream",
 			});
 
-			const fileName = `image.png`;
+			const fileName = `image.gif`;
 			if (!fs.existsSync(sceneDirPath)) {
 				fs.mkdirSync(sceneDirPath, { recursive: true });
 				logger.info(`Directory '${sceneDirPath}' created.`);
@@ -1374,13 +1442,13 @@ app.post("/api/scenario/complete/v1/create-pdf", async (req, res) => {
                     if (fs.statSync(scenePath).isDirectory()) {
                         const files = fs.readdirSync(scenePath);
 
-                        if (files.includes("narration.mp3") && files.includes("image.png") && files.includes("content.txt")) {
+                        if (files.includes("narration.mp3") && files.includes("image.gif") && files.includes("content.txt")) {
                             if (itemCount % column_number === 0) { // Start a new page every 4 scenes
                                 doc.addPage({ size: 'A4', layout: 'landscape' });
                                 itemCount = 0; // Reset counter for new page
                             }
                             
-                            const imagePath = path.join(scenePath, "image.png");
+                            const imagePath = path.join(scenePath, "image.gif");
                             const textPath = path.join(scenePath, "content.txt");
                             
                             // Convert image to ensure compatibility
@@ -1452,11 +1520,14 @@ app.post("/api/scenario/complete/v2/fetch", async (req, res) => {
 
 						if (
 							files.includes("narration.mp3") &&
-							files.includes("image.png") &&
+							files.includes("image.gif") &&
 							files.includes("content.txt")
 						) {
 							if (files.includes("bg.mp3")) {
 								results[`${chapter}/${scene}`] = {
+									story_id: story_id,
+									chapter_id: chapter.replace("Chapter_", ""),
+									scene_id: scene.replace("Scene_", ""),
 									sound: `${ENV_BASE}/story_archive/${path.join(
 										"Story_" + story_id,
 										chapter,
@@ -1473,7 +1544,7 @@ app.post("/api/scenario/complete/v2/fetch", async (req, res) => {
 										"Story_" + story_id,
 										chapter,
 										scene,
-										"image.png"
+										"image.gif"
 									)}`,
 									context: `${ENV_BASE}/story_archive/${path.join(
 										"Story_" + story_id,
@@ -1484,6 +1555,9 @@ app.post("/api/scenario/complete/v2/fetch", async (req, res) => {
 								};
 							} else {
 								results[`${chapter}/${scene}`] = {
+									story_id: story_id,
+									chapter_id: chapter.replace("Chapter_", ""),
+									scene_id: scene.replace("Scene_", ""),
 									sound: `${ENV_BASE}/story_archive/${path.join(
 										"Story_" + story_id,
 										chapter,
@@ -1494,7 +1568,7 @@ app.post("/api/scenario/complete/v2/fetch", async (req, res) => {
 										"Story_" + story_id,
 										chapter,
 										scene,
-										"image.png"
+										"image.gif"
 									)}`,
 									context: `${ENV_BASE}/story_archive/${path.join(
 										"Story_" + story_id,
@@ -1536,7 +1610,7 @@ app.post("/api/scenario/complete/v1/fetch", async (req, res) => {
 
 			if (
 				files.includes("narration.mp3") &&
-				files.includes("image.png") &&
+				files.includes("image.gif") &&
 				files.includes("content.txt")
 			) {
 				results[scene] = {
@@ -1550,7 +1624,7 @@ app.post("/api/scenario/complete/v1/fetch", async (req, res) => {
 						"Story_" + story_id,
 						"Chapter_" + chapter_id,
 						scene,
-						"image.png"
+						"image.gif"
 					)}`,
 					context: `${ENV_BASE}/story_archive/${path.join(
 						"Story_" + story_id,
@@ -1592,7 +1666,7 @@ app.post("/api/video/v2/generate", async (req, res) => {
 
 	for (const scene of scenes) {
 		const sceneDirPath = path.join(chapterDirPath, scene);
-		const imagePath = path.join(sceneDirPath, "image.png");
+		const imagePath = path.join(sceneDirPath, "image.gif");
 		const audioPath = path.join(sceneDirPath, "narration.mp3");
 
 		if (!fs.existsSync(imagePath) || !fs.existsSync(audioPath)) {
@@ -1683,7 +1757,7 @@ app.post("/api/video/v1/generate", async (req, res) => {
 
 	for (const scene of scenes) {
 		const sceneDirPath = path.join(chapterDirPath, scene);
-		const imagePath = path.join(sceneDirPath, "image.png");
+		const imagePath = path.join(sceneDirPath, "image.gif");
 		const audioPath = path.join(sceneDirPath, "narration.mp3");
 
 		if (!fs.existsSync(imagePath) || !fs.existsSync(audioPath)) {

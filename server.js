@@ -333,6 +333,58 @@ app.post("/api/scenario/initialize", async (req, res) => {
 	}
 });
 
+app.post("/api/scenario/adjust/position/right", async (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.body;
+    const chapterPath = path.join(rootStorage, "story_archive", `Story_${story_id}`, `Chapter_${chapter_id}`);
+    
+    const scenePath = path.join(chapterPath, `Scene_${scene_id}`);
+    const targetScenePath = path.join(chapterPath, `Scene_${parseInt(scene_id) + 1}`);
+    
+    if (!fs.existsSync(scenePath) || !fs.existsSync(targetScenePath)) {
+        return res.status(404).json({
+            status: "error",
+            message: "One or both scenes not found"
+        });
+    }
+    
+    // Temporary renaming to avoid collision
+    const tempPath = path.join(chapterPath, `Temp_Scene_${new Date().getTime()}`);
+    fs.renameSync(scenePath, tempPath);
+    fs.renameSync(targetScenePath, scenePath);
+    fs.renameSync(tempPath, targetScenePath);
+    
+    return res.status(200).json({
+        status: "success",
+        message: "Scene positions adjusted right successfully"
+    });
+});
+
+app.post("/api/scenario/adjust/position/left", async (req, res) => {
+    const { story_id, chapter_id, scene_id } = req.body;
+    const chapterPath = path.join(rootStorage, "story_archive", `Story_${story_id}`, `Chapter_${chapter_id}`);
+    
+    const scenePath = path.join(chapterPath, `Scene_${scene_id}`);
+    const targetScenePath = path.join(chapterPath, `Scene_${parseInt(scene_id) - 1}`);
+    
+    if (!fs.existsSync(scenePath) || !fs.existsSync(targetScenePath)) {
+        return res.status(404).json({
+            status: "error",
+            message: "One or both scenes not found"
+        });
+    }
+    
+    // Temporary renaming to avoid collision
+    const tempPath = path.join(chapterPath, `Temp_Scene_${new Date().getTime()}`);
+    fs.renameSync(scenePath, tempPath);
+    fs.renameSync(targetScenePath, scenePath);
+    fs.renameSync(tempPath, targetScenePath);
+    
+    return res.status(200).json({
+        status: "success",
+        message: "Scene positions adjusted left successfully"
+    });
+});
+
 app.post("/api/chapter/initialize", async (req, res) => {
 	/* CHECKED */
 	const { story_id } = req.body;
@@ -1397,7 +1449,7 @@ app.post("/api/scenario/image/premium/create", async (req, res) => {
 		}
 	} catch (error) {
 		logger.error("Failed to create image due to an error:", error);
-		res.status(500).send("Failed to create image");
+		res.status(500).send(error.message);
 	}
 });
 

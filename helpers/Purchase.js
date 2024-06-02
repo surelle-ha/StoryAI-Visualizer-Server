@@ -2,6 +2,23 @@ const PurchaseModel = require('../models/Purchase');
 
 module.exports = {
 
+    async getAllTransactions() {
+        try {
+            const transactions = await PurchaseModel.find({});
+            return {
+                success: true,
+                message: "Transactions retrieved successfully.",
+                data: transactions
+            };
+        } catch (error) {
+            console.log(error);
+            return {
+                success: false,
+                message: 'Failed to retrieve transactions.'
+            };
+        }
+    },
+    
     async validate(property_of, purchase_by, story_id, chapter_id) {
         try {
             const existingPurchase = await PurchaseModel.findOne({

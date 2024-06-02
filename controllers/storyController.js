@@ -125,7 +125,24 @@ module.exports = {
                 error: error
             });
         }
-    }
+    },
+
+    get_prompt_all: async (req, res) => {
+        try {
+            // Fetching all prompts and sorting them by 'created' field in descending order
+            const prompts = await PromptModel.find({}).sort({ created: -1 });  
+            return res.status(200).json({
+                status: 'success',
+                data: prompts
+            });
+        } catch (error) {
+            logger.error(`Error fetching all prompts: ${error}`);
+            return res.status(500).json({
+                status: 'failed',
+                error: error
+            });
+        }
+    }    
     
 
 }
